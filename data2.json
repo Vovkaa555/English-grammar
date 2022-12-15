@@ -1,0 +1,171 @@
+[
+  {
+    "Level":"Elementary",
+    "ListOfTests":
+      [ 
+        {
+          "title":"Articles",
+          "Tests": 
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        },
+        {
+          "title":"UnReact",
+          "Tests": 
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "Level":"Pre-Intermediate",
+    "ListOfTests":
+      [ 
+        {
+          "title":"React",
+          "Tests": 
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  },
+  { 
+    "Level":"Intermediate",
+    "ListOfTests":
+      [ 
+        {
+          "title":"React",
+          "Tests":
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "Level": "Upper-Intermediate",
+    "ListOfTests":
+      [ 
+        {
+          "title":"React",
+          "Tests":
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  }
+]

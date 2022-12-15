@@ -1,0 +1,399 @@
+[
+  {
+    "Level":"Elementary",
+    "ListOfTests":
+      [ 
+        {
+          "title":"1. Articles",
+          "Tests": 
+          [
+            {
+              "title": "I have ___ car",
+              "rule": "A/an are used before indefinite singular countable nouns.",
+              "variants": ["a", "an", "...", "the"],
+              "correct": "0"
+            },
+            {
+              "title": "This is ___ orange",
+              "rule":"An is used only before vowel sounds.",
+              "variants": ["...", "an", "the", "a"],
+              "correct": "1"
+            },
+            {
+              "title": "___ electricity has become more expensive recently.",
+              "rule":"We never use a/an with uncountable nouns.",
+              "variants": [
+                "...",
+                "An",
+                "A",
+                "The"
+                ],
+              "correct": "0"
+            },
+            {
+              "title": "Who is ___ president of Ukraine?",
+              "rule":"We use the definite article in front of a noun when we believe the listener/reader knows exactly what we are referring to:",
+              "variants": [
+                "an",
+                "a",
+                "...",
+                "the"
+                ],
+              "correct": "3"
+            },
+            {
+              "title": "He is ___ tallest boy in the class.",
+              "rule":"We use the definite article with a superlative adjective",
+              "variants": [
+                "the",
+                "an",
+                "a",
+                "..."
+                ],
+              "correct": "0"
+            },
+            {
+              "title": "My ___ son is graduating from school.",
+              "rule":"Do not use any articles when sentences are about a general idea elaborating a noun that is uncountable.",
+              "variants": [
+                "a",
+                "...",
+                "an",
+                "the"
+                ],
+              "correct": "1"
+            },
+            {
+              "title": "She is learning ___ guitar.",
+              "rule":"We use the definite article in this way to talk about musical instruments.",
+              "variants": [
+                "an",
+                "a",
+                "the",
+                "..."
+                ],
+              "correct": "2"
+            },
+            {
+              "title": "She thinks she is ___ Elizabeth Queen.",
+              "rule":"A/An is used to convert a proper noun into a common one. ",
+              "variants": [
+                "...",
+                "the",
+                "an",
+                "a"
+                ],
+              "correct": "2"
+            },
+            {
+              "title": "Mr. Brown is ___ Englishman who immigrated to this country in 1968.",
+              "rule":"English requires the presence of indefinite articles to indicate membership:",
+              "variants": [
+                "the",
+                "an",
+                "...",
+                "a"
+                ],
+              "correct": "1"
+            },
+            {
+              "title": "She is visiting ___ United States.",
+              "rule":"Use the with countries that include the words republic, kingdom, or states in their names.",
+              "variants": [
+                "...",
+                "a",
+                "the",
+                "an"
+                ],
+              "correct": "2"
+            },
+            {
+              "title": "He is ___ amazing contemporary dancer.",
+              "rule":"The descriptive adjective is preceded by the indefinite article (a/an).",
+              "variants": [
+                "an",
+                "the",
+                "a",
+                "..."
+                ],
+              "correct": "0"
+            },
+            {
+              "title": "French is spoken in ___ Tahiti.",
+              "rule":"Do not use the with the names of languages.",
+              "variants": [
+                "an",
+                "a",
+                "the",
+                "..."
+                ],
+              "correct": "3"
+            },
+            {
+              "title": "My brother lives next door to ___ Jacksons",
+              "rule":"The can be used with plural family names to refer to the family as a group",
+              "variants": [
+                "a",
+                "...",
+                "the",
+                "an"
+                ],
+              "correct": "2"
+            },
+            {
+              "title": "He thinks he is ___ Shakespeare.",
+              "rule":"Here, ‘Shakespeare’ does not refer to the actual person but someone like him.",
+              "variants": [
+                "an",
+                "a",
+                "...",
+                "the"
+                ],
+              "correct": "1"
+            },
+            {
+              "title": "He is bad at ___ chemistry.",
+              "rule":"Some common types of nouns that don’t typically use articles include: languages, sports, school subjects, names, abstract nouns.",
+              "variants": [
+                "...",
+                "an",
+                "a",
+                "the"
+                ],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"2. Plural Nouns",
+          "Tests": 
+          [
+            {
+              "title": "There are 10 ___ in the classroom. ",
+              "rule": "For most nouns, the rule is simple: add the letter ‘s’ to the end of the word, and that forms the plural version.",
+              "variants": ["chairies", "chairs", "chair", "chaires"],
+              "correct": "1"
+            },
+            {
+              "title": "Both ___ are late. I will take the subway to college. ",
+              "rule":"If a word ends in the letters ‘s’, ‘x’, ‘z’, ‘ch’, and ‘sh’, you add ‘es’ to the end to make it plural.",
+              "variants": ["buses", "buse", "busses", "bus"],
+              "correct": "0"
+            },
+            {
+              "title": "Where are my ___ ?",
+              "rule":"When the ‘y’ follows a vowel, the plural is formed by retaining the ‘y’ and adding -s.",
+              "variants": ["toyes", "toy", "toyies", "toys"],
+              "correct": "3"
+            },
+            {
+              "title": "He learned to buy old ___ and repair them.",
+              "rule":"Nouns that end in ‘o’ preceded by a vowel are made plural by adding ‘-s’.",
+              "variants": ["radio", "radios", "radioes", "radies"],
+              "correct": "1"
+            },
+            {
+              "title": "My favorite American ___ are Los Angeles and Miami. ",
+              "rule":"If a noun ends in ‘y’, we need to drop the ‘y’ and add ‘ies’ to form the plural.",
+              "variants": ["city", "citi", "cities", "citis"],
+              "correct": "2"
+            },
+            {
+              "title": "I saw ___ in the Appennines.",
+              "rule":"The plural form of some nouns that end in ‘f’ or ‘fe’ is made by changing the ending to -V(es).",
+              "variants": ["wolf", "wolfes", "wolves", "wolwes"],
+              "correct": "2"
+            },
+            {
+              "title": "There were some low brick buildings with flat ___.",
+              "rule":"For nouns that end in ‘f’ and ‘fe’, we need to drop them and add ‘ves’. Words that do not follow the ‘ves’ rule: roofs, beliefs, chefs, chiefs.",
+              "variants": ["roofs", "roof", "rooves", "roofes"],
+              "correct": "0"
+            },
+            {
+              "title": "She always makes ___ for lunch.",
+              "rule":"When we have a singular noun that ends in ‘o’, we simply add ‘es’ to make it plural.",
+              "variants": ["potatoe", "potatos", "potato", "potatoes"],
+              "correct": "3"
+            },
+            {
+              "title": "The major movie ___ are located in Hollywood.",
+              "rule":"For those words which have a vowel before the ‘o’ (like ‘oo’ or ‘io’) we just need to add ‘s’.",
+              "variants": ["studio", "studios", "studies", "studioes"],
+              "correct": "1"
+            },
+            {
+              "title": "Amazon offers a big selection of kitchen ___.",
+              "rule":"If a noun ends with ‘f’ or ‘fe’, then the plural form of the noun ends with ‘ves’ instead of ‘f’ or ‘fe’.",
+              "variants": ["knives", "knivs", "knive", "knies"],
+              "correct": "0"
+            },
+            {
+              "title": "There are many different varieties of ___.",
+              "rule":"If a word ends in ‘us’, the plural version of the noun will end in ‘i’.",
+              "variants": ["cacti", "cactuses", "cactus", "cactusis"],
+              "correct": "0"
+            },
+            {
+              "title": "It wasn't necessary to count ___.",
+              "rule":"These nouns don’t change at all: sheep, deer, fish, moose, shrimp",
+              "variants": ["sheepies", "sheepes", "sheep", "sheeps"],
+              "correct": "2"
+            },
+            {
+              "title": "That evening all the ___ got together to wrap gifts.",
+              "rule":"Some nouns convert into a plural by changing the vowels inside the singular form.",
+              "variants": ["woman", "womans", "womens", "women"],
+              "correct": "3"
+            },
+            {
+              "title": "King made her one of his ___.",
+              "rule":"The plural form of some nouns that end in ‘f’ or ‘fe’ is made by changing the ending to ‘-V(es)’.",
+              "variants": ["wives", "wife", "wifes", "wifs"],
+              "correct": "0"
+            },
+            {
+              "title": "The ___ are white and strong.",
+              "rule":"Here are the most common plural irregular nouns in English: children, men, geese, people, teeth, feet.",
+              "variants": ["teeths", "teeth", "tooth", "toohs"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"React",
+          "Tests": 
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "Level":"Pre-Intermediate",
+    "ListOfTests":
+      [ 
+        {
+          "title":"React",
+          "Tests": 
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  },
+  { 
+    "Level":"Intermediate",
+    "ListOfTests":
+      [ 
+        {
+          "title":"React",
+          "Tests":
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "Level": "Upper-Intermediate",
+    "ListOfTests":
+      [ 
+        {
+          "title":"React",
+          "Tests":
+          [
+            {
+              "title": "React - is ... ?",
+              "rule": "React is a JavaScript library for building user interfaces.",
+              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "correct": "0"
+            },
+            {
+              "title": "Component - is ... ",
+              "rule":"A Component is one of the core building blocks of React.",
+              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "correct": "1"
+            },
+            {
+              "title": "What is JSX?",
+              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
+              "variants": [
+                "This is simple HTML.",
+                "This is function.",
+                "This is library.",
+                "This is HTML, but with the ability to complete JS."
+                ],
+              "correct": "2"
+            }
+          ]
+        }
+      ]
+  }
+]

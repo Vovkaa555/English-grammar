@@ -1,0 +1,48 @@
+.home_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(28, 30, 28);
+    height: 100%;
+    width: 100%;
+}
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 90%;
+        border: 2px;
+        border-color:  rgb(158, 161, 145);
+        border-radius: 20px;
+        padding: 10px;
+        background: rgb(21, 37, 21);
+    }
+    
+        .home_title {
+            color: wheat;
+            font-size: 25px;
+        }
+
+    .item_block {
+        width: 85%;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px;
+            border-color:  rgb(158, 161, 145);
+            border-radius: 10px;
+        }
+            .item_title{
+                font-size: 20px;
+            }
+    
