@@ -11,9 +11,9 @@
       "sourceExts": ["js", "jsx", "scss", "sass"]
     },
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/English.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#152515"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

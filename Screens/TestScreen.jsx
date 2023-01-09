@@ -1,10 +1,12 @@
-import { Text, View, TouchableOpacity, FlatList, Button, SafeAreaView } from 'react-native';
+import { Text, Image, View, TouchableOpacity, FlatList, SafeAreaView } from 'react-native';
 import React, { useState } from 'react';
 
 import * as Animatable from 'react-native-animatable';
+import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
 import Styles from './TestScreen.module.scss';
 import data from '../data.json';
+import { TestResultImage } from './../assets';
 
 function TestScreen({ route, navigation }) {
   const [step, setStep] = useState(0);
@@ -40,8 +42,41 @@ function TestScreen({ route, navigation }) {
   };
 
   function Result({ onPressTryAgain, correct, testLength }) {
+    const fill = (correct / testLength) * 100;
+    let fillText = '';
+    if (fill <= 20) {
+      fillText = 'Failing';
+    } else if (fill > 20 && fill <= 40) {
+      fillText = 'Bad';
+    } else if (fill > 40 && fill <= 60) {
+      fillText = 'Average';
+    } else if (fill > 60 && fill <= 80) {
+      fillText = 'Good';
+    } else if (fill > 80 && fill < 99) {
+      fillText = 'Perfect!';
+    } else {
+      fillText = 'Excellent!';
+    }
+
     return (
       <View style={Styles.result}>
+        <Animatable.Text style={Styles.score} animation={'zoomIn'} delay={2500}>
+          {fillText}
+        </Animatable.Text>
+        <Animatable.View style={Styles.result_block} animation={'bounceIn'} duration={1500}>
+          <Image source={TestResultImage} style={Styles.test_result_image} />
+          <AnimatedCircularProgress
+            style={Styles.circular_progress}
+            size={250}
+            width={10}
+            fill={fill}
+            rotation={0}
+            duration={3000}
+            tintColor="red"
+            tintColorSecondary="green">
+            {(fill) => <Text style={Styles.points_title}>{Math.round(fill)}% </Text>}
+          </AnimatedCircularProgress>
+        </Animatable.View>
         <Text style={Styles.result_title}>
           {correct} correct answers from {testLength} questions.
         </Text>
@@ -53,7 +88,6 @@ function TestScreen({ route, navigation }) {
           onPress={() => navigation.navigate('TestList', { level: level })}>
           <Text style={Styles.home_button_title}>Back to tests</Text>
         </TouchableOpacity>
-
         <TouchableOpacity style={Styles.home_button} onPress={() => navigation.navigate('Home')}>
           <Text style={Styles.home_button_title}>Home</Text>
         </TouchableOpacity>

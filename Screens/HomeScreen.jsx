@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Text, View, FlatList, TouchableOpacity, SafeAreaView } from 'react-native';
+import { Text, View, Image, FlatList, TouchableOpacity, SafeAreaView } from 'react-native';
 
 import Styles from './HomeScreen.module.scss';
+import * as Animatable from 'react-native-animatable';
 import data from '../data.json';
+import { homeImage } from '../assets';
 
 function HomeScreen({ navigation }) {
   const [selectedId, setSelectedId] = useState(null);
@@ -30,16 +32,24 @@ function HomeScreen({ navigation }) {
 
   return (
     <SafeAreaView style={Styles.home_block}>
-      <View style={Styles.home}>
-        <Text style={Styles.home_title}>Choose level:</Text>
-        <FlatList
-          style={Styles.item_block}
-          data={data}
-          renderItem={renderItem}
-          keyExtractor={(item, index) => item + index}
-          extraData={selectedId}
+      <Animatable.View style={Styles.home} animation={'zoomIn'} easing="ease-in-out" duration={200}>
+        <View style={Styles.level_block}>
+          <Text style={Styles.home_title}>Choose level:</Text>
+          <FlatList
+            style={Styles.item_block}
+            data={data}
+            renderItem={renderItem}
+            keyExtractor={(item, index) => item + index}
+            extraData={selectedId}
+          />
+        </View>
+        <Animatable.Image
+          animation={'zoomIn'}
+          easing="ease-in-out"
+          source={homeImage}
+          style={Styles.background_image}
         />
-      </View>
+      </Animatable.View>
     </SafeAreaView>
   );
 }

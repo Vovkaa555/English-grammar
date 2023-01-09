@@ -4,7 +4,973 @@
     "ListOfTests":
       [ 
         {
-          "title":"1. Articles",
+          "title":"1. Prepositions.",
+          "Tests": 
+          [
+            {
+              "title": "He was such a wonderful person ___ so many ways.",
+              "rule": "A preposition is a word that links a noun, pronoun, or noun phrase to some other part of the sentence.",
+              "variants": ["at", "on", "in", "to"],
+              "correct": "2"
+            },
+            {
+              "title": "She drove ___ the store.",
+              "rule":"To refer to a direction, use the prepositions “to”, “in”, “into”, “on” and “onto”.",
+              "variants": ["to", "at", "of", "for"],
+              "correct": "0"
+            },
+            {
+              "title": "They always meet ___ a secret room.",
+              "rule":"The prepositions “in”, “at”, and “on” for indicating place and location. Use “in” for spaces.",
+              "variants": ["on", "to", "in", "at"],
+              "correct": "2"
+            },
+            {
+              "title": "His apartment is ___ 6-Avenue Street.",
+              "rule":"Use “on” for names of streets, roads, avenues, and boulevards.",
+              "variants": ["in", "at", "for", "on"],
+              "correct": "3"
+            },
+            {
+              "title": "We eat breakfast ___ the morning.",
+              "rule":"For years, months, seasons, centuries and times of day, use the preposition “in”.",
+              "variants": ["at", "on", "to", "in"],
+              "correct": "3"
+            },
+            {
+              "title": "No place is better than home ___ Christmas.",
+              "rule":"For days, dates and specific holiday days, use the preposition “on”.",
+              "variants": ["on", "in", "at", "into"],
+              "correct": "0"
+            },
+            {
+              "title": "They entered the house and she glanced ___ the dark fireplace.",
+              "rule":"Use “at” to indicate points.",
+              "variants": ["in", "at", "into", "on"],
+              "correct": "1"
+            },
+            {
+              "title": "The sculpture hangs ___ the wall.",
+              "rule":"“On” is used when referring to something with a surface.",
+              "variants": ["to", "at", "on", "in"],
+              "correct": "2"
+            },
+            {
+              "title": "It has been raining ___ two O’Clock.",
+              "rule":"“Since”, “for”, “from”, “since” is often used with Present Perfect or Past Perfect Tense",
+              "variants": ["to", "since", "beside", "in"],
+              "correct": "1"
+            },
+            {
+              "title": "The park is ___ her house.",
+              "rule":"To refer to an object close to a point, use the prepositions “by”, “near”, “next to”, “between”, “among” and “opposite”.",
+              "variants": ["near", "since", "for", "from"],
+              "correct": "0"
+            },
+            {
+              "title": "I will collect data ___ January ___ June.",
+              "rule":"To refer to extended time, use the prepositions “since”, “for”, “by”, “during”, “from...to”, “from...until”, “with” and “within”.",
+              "variants": ["from...to", "for...by", "from...by", "during...to"],
+              "correct": "0"
+            },
+            {
+              "title": "I am going ___ the airport",
+              "rule":"Preposition “to” is used to indicate the destination.",
+              "variants": ["at", "on", "to", "in"],
+              "correct": "2"
+            },
+            {
+              "title": "People climbed ___ their roofs.",
+              "rule":"“Onto” is used when there is movement involving a change of level.",
+              "variants": ["at", "into", "to", "onto"],
+              "correct": "3"
+            },
+            {
+              "title": "He was happy to be ___ friends again.",
+              "rule":"“Among” is usually used for more than two persons or things when we have no definite number in mind.",
+              "variants": ["next to", "in front of", "beside", "among"],
+              "correct": "3"
+            },
+            {
+              "title": "The train passes ___ the tunnel.",
+              "rule":"“Through” refers to moving directly inside something and out the other end.",
+              "variants": ["during", "through", "in", "at"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"2. Plural nouns.",
+          "Tests": 
+          [
+            {
+              "title": "There are 10 ___ in the classroom. ",
+              "rule": "For most nouns, the rule is simple: add the letter “s” to the end of the word, and that forms the plural version.",
+              "variants": ["chairies", "chairs", "chair", "chaires"],
+              "correct": "1"
+            },
+            {
+              "title": "Both ___ are late. I will take the subway to college. ",
+              "rule":"If a word ends in the letters “s”, “x”, “z”, “ch”, and “sh”, you add “es” to the end to make it plural.",
+              "variants": ["buses", "buse", "busses", "bus"],
+              "correct": "0"
+            },
+            {
+              "title": "Where are my ___ ?",
+              "rule":"When the “y” follows a vowel, the plural is formed by retaining the “y” and adding -s.",
+              "variants": ["toyes", "toy", "toyies", "toys"],
+              "correct": "3"
+            },
+            {
+              "title": "He learned to buy old ___ and repair them.",
+              "rule":"Nouns that end in “o” preceded by a vowel are made plural by adding “-s”.",
+              "variants": ["radio", "radios", "radioes", "radies"],
+              "correct": "1"
+            },
+            {
+              "title": "My favorite American ___ are Los Angeles and Miami. ",
+              "rule":"If a noun ends in “y”, we need to drop the “y” and add “ies” to form the plural.",
+              "variants": ["city", "citi", "cities", "citis"],
+              "correct": "2"
+            },
+            {
+              "title": "I saw ___ in the Appennines.",
+              "rule":"The plural form of some nouns that end in “f” or “fe” is made by changing the ending to -V(es).",
+              "variants": ["wolf", "wolfes", "wolves", "wolwes"],
+              "correct": "2"
+            },
+            {
+              "title": "There were some low brick buildings with flat ___.",
+              "rule":"For nouns that end in “f” and “fe”, we need to drop them and add “ves”. Words that do not follow the “ves” rule: roofs, beliefs, chefs, chiefs.",
+              "variants": ["roofs", "roof", "rooves", "roofes"],
+              "correct": "0"
+            },
+            {
+              "title": "She always makes ___ for lunch.",
+              "rule":"When we have a singular noun that ends in “o”, we simply add “es” to make it plural.",
+              "variants": ["potatoe", "potatos", "potato", "potatoes"],
+              "correct": "3"
+            },
+            {
+              "title": "The major movie ___ are located in Hollywood.",
+              "rule":"For those words which have a vowel before the “o” (like “oo” or “io”) we just need to add “s”.",
+              "variants": ["studio", "studios", "studies", "studioes"],
+              "correct": "1"
+            },
+            {
+              "title": "Amazon offers a big selection of kitchen ___.",
+              "rule":"If a noun ends with “f” or “fe”, then the plural form of the noun ends with “ves” instead of “f” or “fe”.",
+              "variants": ["knives", "knivs", "knive", "knies"],
+              "correct": "0"
+            },
+            {
+              "title": "There are many different varieties of ___.",
+              "rule":"If a word ends in “us”, the plural version of the noun will end in “i”.",
+              "variants": ["cacti", "cactuses", "cactus", "cactusis"],
+              "correct": "0"
+            },
+            {
+              "title": "It wasn’t necessary to count ___.",
+              "rule":"These nouns don’t change at all: sheep, deer, fish, moose, shrimp.",
+              "variants": ["sheepies", "sheepes", "sheep", "sheeps"],
+              "correct": "2"
+            },
+            {
+              "title": "That evening all the ___ got together to wrap gifts.",
+              "rule":"Some nouns convert into a plural by changing the vowels inside the singular form.",
+              "variants": ["woman", "womans", "womens", "women"],
+              "correct": "3"
+            },
+            {
+              "title": "King made her one of his ___.",
+              "rule":"The plural form of some nouns that end in “f” or “fe” is made by changing the ending to “-V(es)”.",
+              "variants": ["wives", "wife", "wifes", "wifs"],
+              "correct": "0"
+            },
+            {
+              "title": "The ___ are white and strong.",
+              "rule":"Here are the most common plural irregular nouns in English: children, men, geese, people, teeth, feet.",
+              "variants": ["teeths", "teeth", "tooth", "toohs"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"3. Count and noncount nouns.",
+          "Tests": 
+          [
+            {
+              "title": "___ are good at surviving on their own.?",
+              "rule": "A count noun is one that can be expressed in plural form, usually with an “s”.",
+              "variants": ["Doges", "Dogies", "Dog", "Dogs"],
+              "correct": "3"
+            },
+            {
+              "title": "There are three small ___ upstairs.",
+              "rule":"Count nouns refer to people, places, and things that can be counted.",
+              "variants": ["roomes", "room", "rooms", "roomis"],
+              "correct": "2"
+            },
+            {
+              "title": "These are the perfect fair weather ___.",
+              "rule":"A few countable nouns only have a plural form in English: clothes, pants, jeans, shorts, etc.",
+              "variants": ["jeanses", "jeans", "jean", "jeanse"],
+              "correct": "1"
+            },
+            {
+              "title": "Maybe a glass of ___ would help.",
+              "rule":"A noncount noun is one that usually cannot be expressed in a plural form.",
+              "variants": ["milk", "milks", "milkes", "mils"],
+              "correct": "0"
+            },
+            {
+              "title": "There are deposits of rock ___.",
+              "rule":"Noncount nouns, on the other hand, refer to items, qualities, or concepts that cannot be counted.",
+              "variants": ["salts", "saltes", "salt", "sals"],
+              "correct": "2"
+            },
+            {
+              "title": "I had two ___ for dinner.",
+              "rule":"The count version refers to two pieces or units of chocolate.",
+              "variants": ["chocolate", "chocolats", "chocolat", "chocolates"],
+              "correct": "3"
+            },
+            {
+              "title": "I bought too many ___.",
+              "rule":"Use “many” for count nouns.",
+              "variants": ["appels", " appls", " apples", "apple"],
+              "correct": "2"
+            },
+            {
+              "title": " I have too much ___.",
+              "rule":"Use “much” for noncount nouns.",
+              "variants": ["homeworke", "homeworkes", "homeworks", "homework"],
+              "correct": "3"
+            },
+            {
+              "title": "They were silent for a few ___.",
+              "rule":"Use “a few” for count nouns.",
+              "variants": ["second", "seconds", "secondes", "secons"],
+              "correct": "1"
+            },
+            {
+              "title": "I used a little ___.",
+              "rule":"Use “a little” for noncount nouns.",
+              "variants": ["inks", "inke", "ink", "inkes"],
+              "correct": "2"
+            },
+            {
+              "title": "You have lost a lot of ___.",
+              "rule":"Use “a lot of” for noncount nouns.",
+              "variants": ["weight", "weighte", "weights", "weightes"],
+              "correct": "0"
+            },
+            {
+              "title": "They both teach the same ___.",
+              "rule":"The count version changes the meaning of “truth” to facts and statements that are true.",
+              "variants": ["truthes", "truthe", "truth", "truths"],
+              "correct": "3"
+            },
+            {
+              "title": "There is a little bit of ___ in the soup.",
+              "rule":"“A little bit of” is informal and always precedes an uncountable noun.",
+              "variants": ["peppes", "pepperes", "pepper", "peppers"],
+              "correct": "2"
+            },
+            {
+              "title": "I have enough ___ to read.",
+              "rule":"“Enough” modifies both countable and uncountable nouns.",
+              "variants": ["book", "books", "bookes", "bookses"],
+              "correct": "1"
+            },
+            {
+              "title": "There are no ___ in the park",
+              "rule":"“No” modifies both countable and uncountable nouns.",
+              "variants": ["squirrels", "squirrel", "squirrls", "squirreles"],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"4. Possesive nouns.",
+          "Tests": 
+          [
+            {
+              "title": "Michael drove his ___ car.",
+              "rule": "We add “’s” to singular nouns to show possession.",
+              "variants": ["friend", "friend’s", "friend’", "friends"],
+              "correct": "1"
+            },
+            {
+              "title": "___ attempts to solve the problem were rewarded.",
+              "rule":"The possessive case is used to show ownership of something.",
+              "variants": ["Richard’", "Richards", "Richard’s", "Richard"],
+              "correct": "2"
+            },
+            {
+              "title": "The ___ workers went on strike together.",
+              "rule":"Plural nouns that end in “s” only need an apostrophe to make plural possessive nouns.",
+              "variants": ["companies", "companies’", "companies’s", "companies’es"],
+              "correct": "1"
+            },
+            {
+              "title": "___ and Gore’s campaign was successful.",
+              "rule":"If there is joint possession, use the correct possessive for only the possessive closest to the noun.",
+              "variants": ["Clinton", "Clintons", "Clinton’", "Clinton’s"],
+              "correct": "0"
+            },
+            {
+              "title": "___ and Beth’s books are full of useful information.",
+              "rule":"If there is a separate possession of the same noun, use the correct possessive form for each word.",
+              "variants": ["Susan’", "Susan", "Susans", "Susan’s"],
+              "correct": "3"
+            },
+            {
+              "title": "The ___ backpacks are blue.",
+              "rule":"If the noun is plural and ends in “s”, you shouldn’t add another “s” but only an apostrophe to make it possessive.",
+              "variants": ["boy’", "boys", "boys’", "boy"],
+              "correct": "2"
+            },
+            {
+              "title": "Is that ___ car?",
+              "rule":"Also correct form is “Chris’”. Both possessive noun examples show that the car belongs to Chris.",
+              "variants": ["Chris’s", "Chris", "Chrises", "Chris’es"],
+              "correct": "0"
+            },
+            {
+              "title": "The ___ teacher’s method is very effective.",
+              "rule":"With hyphenated or compound nouns, use the correct possessive form for the word closest to the noun.",
+              "variants": ["English’s", "English", "Englishs", "English’"],
+              "correct": "1"
+            },
+            {
+              "title": "___ mindset needs to be changed.",
+              "rule":"In irregular plural nouns (men, children) we add apostrophe and “s” to show possession.",
+              "variants": ["People’", "People’s", "Peopls", "Peoples"],
+              "correct": "1"
+            },
+            {
+              "title": "Ronnye’s and ___ children.",
+              "rule":"If you are using two or more plural nouns that have different ownership, each noun requires “’s” added to the end of each.",
+              "variants": ["Kelly", "Kellys", "Kelly’es", "Kelly’s"],
+              "correct": "3"
+            },
+            {
+              "title": "Yellowstone National ___ hours.",
+              "rule":"With hyphenated or compound words, only the last word shows possession.",
+              "variants": ["Park’s", "Park’", "Park", "Parks"],
+              "correct": "0"
+            },
+            {
+              "title": "The ___ ears help the animals stay cool.",
+              "rule":"In most cases, for singular nouns to show that possession, we add “’s”.",
+              "variants": ["elephants’", "elephant", "elephants", "elephant’s"],
+              "correct": "3"
+            },
+            {
+              "title": "___ and France’s deal helped to end the war.",
+              "rule":"If multiple nouns possess the same thing, add the apostrophe and “s” after the final noun.",
+              "variants": ["Italy’s", "Italy’", "Italy", "Italys"],
+              "correct": "2"
+            },
+            {
+              "title": "___ and France’s economies are improving.",
+              "rule":"The rule changes if each noun possesses their own version of the thing.",
+              "variants": ["Italys", "Italy’s", "Italy’", "Italy"],
+              "correct": "1"
+            },
+            {
+              "title": "The sweet has passed ___ expiry date.",
+              "rule":"The apostrophe + “s” rule does not apply to the possessive form of the pronoun “it.”",
+              "variants": ["its’", "its", "it’s", " its’s"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"5. Past simple tense.",
+          "Tests": 
+          [
+            {
+              "title": "I wonder if Martha ___ yesterday.",
+              "rule": "The simple past tense is used to talk about a completed action in a time before now. With most verbs, the past tense is formed by adding “ed”.",
+              "variants": ["called", "calls", "call", "calld"],
+              "correct": "0"
+            },
+            {
+              "title": "Leonardo ___ the Mona Lisa.",
+              "rule":"We use it with finished actions, states or habits in the past when we know from general knowledge that the time period has finished.",
+              "variants": ["paint", "painting", "paints", "painted"],
+              "correct": "3"
+            },
+            {
+              "title": "She ___ something last year.",
+              "rule":"There is also a group of irregular verbs. Therefore, you should remember the past tense form.",
+              "variants": ["saw", "see", "seen", "sees"],
+              "correct": "0"
+            },
+            {
+              "title": "I wish I ___ more time!",
+              "rule":"We use the past simple to talk about things that are not real in the present or future.",
+              "variants": ["have", "had", "has", "haved"],
+              "correct": "1"
+            },
+            {
+              "title": "I ___ talk to John yesterday.",
+              "rule":"To create a negative sentence in the past simple, use didn’t (did not) + the base form of the verb.",
+              "variants": ["do not", "didn’t", "don’t", "doesn’t"],
+              "correct": "1"
+            },
+            {
+              "title": "It ___ the earthquake.",
+              "rule":"Only the verb ‘to be’ has two forms of the past tense – was/were. We use “was” with “I”, “she”, “he”, “it”.",
+              "variants": ["been", "were", "was", "be"],
+              "correct": "2"
+            },
+            {
+              "title": "We swam a lot while we ___ on holiday.",
+              "rule":"We use “were” with “you”, “we”, “they”.",
+              "variants": ["be", "was", "were", "been"],
+              "correct": "2"
+            },
+            {
+              "title": "I ___ my wife a long time ago.",
+              "rule":"We often use expressions with ago with the past simple.",
+              "variants": ["met", "meet", "meted", "meeted"],
+              "correct": "0"
+            },
+            {
+              "title": "The fourth-place winner ___ happy at all.",
+              "rule":"For the verb “to be”, you don’t need the auxiliary “did”. When the subject of the sentence is singular, use “was not” or “wasn’t”.",
+              "variants": ["didn’t", "wasn’t", "were’t", "don’t"],
+              "correct": "1"
+            },
+            {
+              "title": "They ___ in Rio last summer.",
+              "rule":"When the subject is plural, use “were not” or “weren’t.”",
+              "variants": ["weren't", "wasn’t", "didn’t", "don’t"],
+              "correct": "0"
+            },
+            {
+              "title": "___ you have a bicycle when you were young?",
+              "rule":"For the negative and interrogative form of all verbs in the simple past, always use the auxiliary “did”.",
+              "variants": ["Do", "Was", "Did", "Were"],
+              "correct": "2"
+            },
+            {
+              "title": "King Solomon ___ three thousand years ago.",
+              "rule":"For verbs ending in “-e”, add “-d”.",
+              "variants": ["live", "lives", "lived", "livd"],
+              "correct": "2"
+            },
+            {
+              "title": "She ___ again with the same results.",
+              "rule":"For verbs ending in a consonant plus “-y”, the “-y” is replaced with an “-i”, then “-ed” is added.",
+              "variants": ["tri", "tried", "try", "tries"],
+              "correct": "1"
+            },
+            {
+              "title": "It ___ a great holiday.",
+              "rule":"The finished time can also be implied rather than stated explicitly. (We know the holiday is finished.)",
+              "variants": ["was", "were", "been", "be"],
+              "correct": "0"
+            },
+            {
+              "title": "We ___ together for a long time.",
+              "rule":"The past simple tense is also used to talk about certain periods of finished time.",
+              "variants": ["live", "lived", "lives", "living"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"6. Future simple tense.",
+          "Tests": 
+          [
+            {
+              "title": "I ___ at the right time tomorrow!",
+              "rule": "The formula of the simple future tense is as follows: Subject + Helping verb “will” + base form of the verb + the rest of the sentence.",
+              "variants": ["wake up", "will wake up", "waked up", "waking up"],
+              "correct": "1"
+            },
+            {
+              "title": "I think our team ___ the football game.",
+              "rule":"We use the simple future tense to make predictions or guesses about the future.",
+              "variants": ["will win", "win", "won", "winning"],
+              "correct": "0"
+            },
+            {
+              "title": "___ he buy her a gift?",
+              "rule":"We can also use the simple future tense to ask questions about the future. Use “Will” (or “Won’t”) + subject + base form of the verb.",
+              "variants": ["Shall", "Will", "Is", "Shall not"],
+              "correct": "1"
+            },
+            {
+              "title": "They will finish building the house ___.",
+              "rule":"The most common time expressions are: tomorrow, next week (Sunday/month/year), in two days (weeks, months years), the day after tomorrow.",
+              "variants": ["last week", "yesterday", "now", "in next six months"],
+              "correct": "3"
+            },
+            {
+              "title": "___ meet him later.",
+              "rule":"Also, it's very common to use contractions in spoken English: I will = I'll,  you will = you'll,  he will = he'll,  she will = she'll,  we will = we'll,  they will = they'll",
+              "variants": ["will you", "Will", "You shall", "You’ll"],
+              "correct": "3"
+            },
+            {
+              "title": "___ we go for a walk tomorrow?",
+              "rule":"“Shall” is used with the subjects “I” and “we” to make suggestions or to offer to do something for someone. It is always used in the form of a question.",
+              "variants": ["Do", "Does", "Shall", "Did"],
+              "correct": "2"
+            },
+            {
+              "title": "You girlfriend ___ happy about that.",
+              "rule":"For the negative, we add “will not” for all subject forms.",
+              "variants": ["shall not be", "will not", "not", "will not be"],
+              "correct": "3"
+            },
+            {
+              "title": "Matthew ___ visit tomorrow.",
+              "rule":"We can also use a contraction. It is important to remember that the contraction of “will not” is “won’t” and not “willn’t”.",
+              "variants": ["shon’t", "won’t", "willn’t", "shall not"],
+              "correct": "1"
+            },
+            {
+              "title": "I ___ my homework later.",
+              "rule":"We usually use “am”, “is” or “are” + “going to” + the base form of the verb to talk about actions in the future that have already been decided on.",
+              "variants": ["am going to do", "going to do", "am going to", "am going to doing"],
+              "correct": "0"
+            },
+            {
+              "title": "We’re ___ late.",
+              "rule":"We can also use “going to” when something is certain or very likely to happen, but not in the immediate future.",
+              "variants": ["go to be", "going to be", "going to being", "will"],
+              "correct": "1"
+            },
+            {
+              "title": "When I grow up, I’m ___ a police officer.",
+              "rule":"Children often use the “going to” construction, when they speak about what they want to be when they grow up.",
+              "variants": ["going to be", "will", "going to being", "go to be"],
+              "correct": "0"
+            },
+            {
+              "title": "Nicole ___ to like the movie.",
+              "rule":"When using the “going to” form for negative sentences, we place the word “not” after the verb “be”. Again, contractions can also be used.",
+              "variants": ["is go", "shall not going", "isn’t go", "isn’t going"],
+              "correct": "3"
+            },
+            {
+              "title": "Are you ___ Jennifer later",
+              "rule":"To form interrogative sentences in the future simple tense using the “going to” construction, we simply put the linking verb be before the subject of the sentence.",
+              "variants": ["will going to see", "going to see", "will see", "see to going"],
+              "correct": "1"
+            },
+            {
+              "title": "___ at work on Monday?",
+              "rule":"Sometimes the word “be” is used to express the future. In this case we use “be” as main verb.",
+              "variants": ["Be you will", "Be you", "Will you be", "Will you"],
+              "correct": "2"
+            },
+            {
+              "title": "The museum ___ closed for renovation. ",
+              "rule":"“Be to” refers to an action that is to take place in the future, such as an obligation, arrangement, information, duty, instruction.",
+              "variants": ["is to be", "be", "will to", "to be"],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"7. Demonstratives.",
+          "Tests": 
+          [
+            {
+              "title": "___ pen right here.",
+              "rule": "The demonstrative pronoun “this” is singular and refers to a nearby item.",
+              "variants": ["This", "That", "Those", "These"],
+              "correct": "0"
+            },
+            {
+              "title": "___ books on the table there are Maya's",
+              "rule":"Use the demonstrative pronoun “those” to refer to multiple far away items.",
+              "variants": ["That", "These", "This", "Those"],
+              "correct": "3"
+            },
+            {
+              "title": "Hello, ___ me",
+              "rule":"If we use a pronoun like “me” on the telephone, we use “it”: “It's me.”. Not: “This is me”.",
+              "variants": ["this is", "that is", "it's", "these is"],
+              "correct": "2"
+            },
+            {
+              "title": "Amanda, ___ is John.",
+              "rule":"We use “this” to introduce people to each other.",
+              "variants": ["that", "this", "those", "these"],
+              "correct": "1"
+            },
+            {
+              "title": "Can you see ___ building there?",
+              "rule":"We use “that” most commonly to point to a thing or person. We use it with singular nouns. ",
+              "variants": ["those", "these", "this", "that"],
+              "correct": "3"
+            },
+            {
+              "title": "I’ll be with you some time ___ evening.",
+              "rule":"We often use “this” with words describing time and dates (like “morning”, “afternoon”, “evening”, etc.) to refer to “the one that’s coming” or “the one we’re currently in”.",
+              "variants": ["that", "these", "those", "this"],
+              "correct": "3"
+            },
+            {
+              "title": "___ people, that are standing near me, are my friends.",
+              "rule":"Demonstrative pronoun “these” is plural and refers to multiple nearby items.",
+              "variants": ["This", "These", "That", "Those"],
+              "correct": "1"
+            },
+            {
+              "title": "If he gets ___ job in London, he’ll be able to visit us.",
+              "rule":"We use “that” to refer back to something that has already been spoken or written about.",
+              "variants": ["these", "that", "this", "those"],
+              "correct": "1"
+            },
+            {
+              "title": "___ girls we met last night were silly.",
+              "rule":"If an action has finished or is in the past we use “that” or “those”.",
+              "variants": ["This", "These", "That", "Those"],
+              "correct": "3"
+            },
+            {
+              "title": "___ party is boring.",
+              "rule":"If an action is near in time we tend to use “this” or “these”.",
+              "variants": ["That", "This", "Those", "These"],
+              "correct": "1"
+            },
+            {
+              "title": "Why don’t you come at around 8? ___ give me time to get ready.",
+              "rule":"We also use “that” to refer back to a whole clause.",
+              "variants": ["This’ll", "Those’ll", "These’ll", "That’ll"],
+              "correct": "3"
+            },
+            {
+              "title": "Could you blow out ___ candles near you?",
+              "rule":"We use “that” and “those” most commonly to point to things and people which are often more distant from the speaker, and sometimes closer to the listener.",
+              "variants": ["this", "those", "these", "that"],
+              "correct": "1"
+            },
+            {
+              "title": "___ is your hat here.",
+              "rule":"We use “this” or “that” when we talk about singular nouns and uncountable nouns.",
+              "variants": ["That", "Those", "This", "These"],
+              "correct": "2"
+            },
+            {
+              "title": "Oversized clothes are trend nowadays. ___ styles are really popular.",
+              "rule":"“These” is used to show people or things that have already been mentioned.",
+              "variants": ["This", "These", "Those", "That"],
+              "correct": "1"
+            },
+            {
+              "title": "The most important information is ___ given at the beginning of the manual.",
+              "rule":"In formal contexts, we can use “that” and “those” as substitutes meaning ‘the one(s)’:",
+              "variants": ["this", "that", "these", "those"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"8. The verb ”to be”.",
+          "Tests": 
+          [
+            {
+              "title": "They might ___ tired.",
+              "rule": "“To be” verbs are: are, am, is, was, were, been and being. We use the infinitive form “be” with modal verbs.",
+              "variants": ["been", "being", "be", "will be"],
+              "correct": "2"
+            },
+            {
+              "title": "It ___ the earthquake.",
+              "rule":"“Was” is used for the first and the third person singular (I was, he was, she was, it was) for the past tense.",
+              "variants": ["was", "were", "being", "be"],
+              "correct": "0"
+            },
+            {
+              "title": "There ___ no reason any of them have to be.",
+              "rule":"“Is” and “are” are used in present tense in constructions that start with “it” or “there”.",
+              "variants": ["were", "was", "is", "are"],
+              "correct": "2"
+            },
+            {
+              "title": "I have ___ in Paris.",
+              "rule":"“Been” is the past participle of the verb “to be”. It is used in perfect tenses.",
+              "variants": ["being", "been", "was", "were"],
+              "correct": "1"
+            },
+            {
+              "title": "You ___ my enemy.",
+              "rule":"In order to build negative sentences in the present simple, you only have to add “not” after the verb forms.",
+              "variants": ["am not", "is not", "are not", "be not"],
+              "correct": "2"
+            },
+            {
+              "title": "I ___ so hungry.",
+              "rule":"“Am” is the present tense form of “to be” for the first person singular (I am).",
+              "variants": ["are", "be", "been", "am"],
+              "correct": "3"
+            },
+            {
+              "title": "He ___ positively rude.",
+              "rule":"“Being” is the present participle of the verb “to be”.",
+              "variants": ["were been", "was being", "was been", "were being"],
+              "correct": "1"
+            },
+            {
+              "title": "They ___ at the movies.",
+              "rule":"“Are” is used for the first person plural (we are), the second person singular and plural (you are) and the third person plural (they are).",
+              "variants": ["been", "was", "be", "are"],
+              "correct": "3"
+            },
+            {
+              "title": "His eyes ___ full of fire.",
+              "rule":"“Were” is used for the first person plural (we were), the second person singular and plural (you were) and the third person plural (they were).",
+              "variants": ["were", "was", "been", "being"],
+              "correct": "0"
+            },
+            {
+              "title": "It will ___ about the end of our adventures, I guess.",
+              "rule":"“Be” is used after “will” to form the simple future tense.",
+              "variants": ["been", "be", "have been", "being"],
+              "correct": "1"
+            },
+            {
+              "title": "___ happy?",
+              "rule":"If you want to make questions, just use inversion (swap the person and the verb form).",
+              "variants": ["Is we", "Was we", "We was", "Are we"],
+              "correct": "3"
+            },
+            {
+              "title": "Where ___ you from?",
+              "rule":"Other way to make questions is to use it normally with Wh- questions.",
+              "variants": ["is", "was", "been", "are"],
+              "correct": "3"
+            },
+            {
+              "title": "I ___ 21 years old.",
+              "rule":"Use the present simple of the verb “to be” when you want to tell your or someone else’s age.",
+              "variants": ["be", "am", "being", "are"],
+              "correct": "1"
+            },
+            {
+              "title": "___ quiet!",
+              "rule":"“Be” is used to give an order.",
+              "variants": ["Been", "Is", "Be", "Was"],
+              "correct": "2"
+            },
+            {
+              "title": "This area ___ full of wildlife.",
+              "rule":"Use the present simple of the verb “to be” when you want to describe people, things or places.",
+              "variants": ["is", "are", "were", "been"],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"9. Irregular verbs.",
+          "Tests": 
+          [
+            {
+              "title": "They ___ great friends over the years.",
+              "rule": "Irregular verb is a verb that does not follow the common conjugation pattern. In this case we use past simple: become → became → become.",
+              "variants": ["become", "became", "becamed", "becomed"],
+              "correct": "1"
+            },
+            {
+              "title": "The wind had ___ the tree down.",
+              "rule": "In this case we use past participle: blow → blew → blown.  Verbs with “-ew” in the past simple have ending “-wn” in the past participle.",
+              "variants": ["blow", "blown", "blew", "blowing"],
+              "correct": "1"
+            },
+            {
+              "title": "Dean's assailant had not ___ gloves.",
+              "rule": "In this case we use past participle: wear → wore → worn. Verbs with ending “-ear”, have ending “-ore”, “-orn” in other irregular forms.",
+              "variants": ["worn", "wear", "woar", "wore"],
+              "correct": "0"
+            },
+            {
+              "title": "She turned and ___ the room.",
+              "rule": "In this case we use past simple: leave → left → left.",
+              "variants": ["leaved", "leave", "lefted", "left"],
+              "correct": "3"
+            },
+            {
+              "title": "I have ___ the rope before.",
+              "rule": "In this case we use past participle: cut → cut → cut. There are some irregular verbs that never change form. Most of these verbs end in “-t”.",
+              "variants": ["cut", "cuted", "cuteen", "cud"],
+              "correct": "0"
+            },
+            {
+              "title": "Then he ___ her into the cave.",
+              "rule": "In this case we use past simple: lead → led → led. There are some irregular verbs with the same past simple and past participle forms.",
+              "variants": ["lead", "led", "ledn", "leaded"],
+              "correct": "1"
+            },
+            {
+              "title": "They have ___ together for years.",
+              "rule": "In this case we use past participle: run → ran → run. Several irregular verbs have the same present tense form and past participle form, but not the same past tense form.",
+              "variants": ["runed", "ran", "run", "raned"],
+              "correct": "2"
+            },
+            {
+              "title": "I ___ you breakfast!",
+              "rule": "In this case we use past simple: bring → brought → brought. Most irregular verbs become longer or stay the same length in the past tense.",
+              "variants": ["brought", "broughted", "bringed", "bring"],
+              "correct": "0"
+            },
+            {
+              "title": "Her smile ___ up his day.",
+              "rule": "In this case we use past simple: light → lit(lighted) → lit(lighted). Verbs like “light” become shorter in the past tense and past participle “lit”.",
+              "variants": ["light", "lain", "lit", "lained"],
+              "correct": "2"
+            },
+            {
+              "title": "Her first day and she had ___ asleep on the job.",
+              "rule": "In this case we use past participle: fall → fell → fallen. Some irregular verbs take “-en” in the past participle.",
+              "variants": ["fell", "fold", "fall", "fallen"],
+              "correct": "3"
+            },
+            {
+              "title": "Its proximity to Liverpool and Manchester has ___ to it a large resident population.",
+              "rule": "In this case we use past participle: draw → drew → drawn. Some irregular verbs change the vowel to an “e” in the past tense and/or add “-wn” in the past participle.",
+              "variants": ["drew", "drawn", "drewn", "draw"],
+              "correct": "1"
+            },
+            {
+              "title": "She relaxed and ___ to enjoy the evening.",
+              "rule": "In this case we use past simple: begin → began → begun. Some irregular verbs take different vowels in each form.",
+              "variants": ["began", "begin", "begyn", "begun"],
+              "correct": "0"
+            },
+            {
+              "title": "She ___ her distance from him.",
+              "rule": "In this case we use past simple: keep → kept → kept. Some verbs add “t” at the end, often exchanged for a vowel or consonant elsewhere in the word.",
+              "variants": ["kept", "keep", "kep", "kepd"],
+              "correct": "0"
+            },
+            {
+              "title": "He ___ that she was swimming.",
+              "rule": "“Dreamed” and “dreamt” are both acceptable past tense forms of dream. Often the irregular form of a word gives way and is replaced by the normalized form, but both “dreamt” and “dreamed” are still in use.",
+              "variants": ["dreamt", "dream", "dremt", "dremd"],
+              "correct": "0"
+            },
+            {
+              "title": "I ___ you up there one time.",
+              "rule": "There are nine irregular verb examples also happen to be among the most commonly used words in the English language: go, get, say, see, think, make, take, come, know.",
+              "variants": ["see", "saw", "seen", "sawed"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"10. Wh-questions.",
+          "Tests": 
+          [
+            {
+              "title": "___ will supper be ready? ",
+              "rule": "Wh- questions begin with what, when, where, who, whom, which, whose, why, and how. We use them to ask for information. The answer cannot be yes or no.",
+              "variants": ["Does", "Is", "Do", "When"],
+              "correct": "3"
+            },
+            {
+              "title": "What ___ you want?",
+              "rule":"We usually form wh-questions with wh- + an auxiliary verb (be, do or have) + subject + main verb or with wh- + a modal verb + subject + main verb.",
+              "variants": ["is", "are", "...", "do"],
+              "correct": "3"
+            },
+            {
+              "title": "What ___ is the problem?",
+              "rule":"Do not add “do” to questions about objects (actually it's called a complement) with the “be” verb. Just use the order of Wh-question word + Subject + “be” verb.",
+              "variants": ["did", "...", "does", "do"],
+              "correct": "1"
+            },
+            {
+              "title": "___ did you come from?",
+              "rule":"“Where” is used in questions to ask about place or position.",
+              "variants": ["Where", "What", "Which", "How"],
+              "correct": "0"
+            },
+            {
+              "title": "___ did it happen?",
+              "rule":"“When” is used in questions to ask about time.",
+              "variants": ["What", "Whose", "When", "Who"],
+              "correct": "2"
+            },
+            {
+              "title": "___ does the rain fall?",
+              "rule":"“Why” is used in questions to ask the reason for something.",
+              "variants": ["Which", "Why", "Whom", "Who"],
+              "correct": "1"
+            },
+            {
+              "title": "___ one is it?",
+              "rule":"“Which” is used in questions to ask about choices.",
+              "variants": ["What", "Why", "When", "Which"],
+              "correct": "3"
+            },
+            {
+              "title": "___ time is it?",
+              "rule":"“What” is used in questions to ask for repetition, confirmation or for information about something.",
+              "variants": ["When", "What", "Who", "Which"],
+              "correct": "1"
+            },
+            {
+              "title": "___ would see it?",
+              "rule":"“Who” is used in questions to ask about person or people (subject).",
+              "variants": ["Whom", "Who", "Whose", "When"],
+              "correct": "1"
+            },
+            {
+              "title": "Of ___ are you afraid?",
+              "rule":"In Modern English “who” is used instead of “whom” especially when it looks like a subject but actually it is an object of a preposition. This is not applicable in the case of “by whom”.",
+              "variants": ["how", "who", "whose", "whom"],
+              "correct": "3"
+            },
+            {
+              "title": "___ problem will it be?",
+              "rule":"“Whose” is used in questions to ask about ownership (subject).",
+              "variants": ["Who", "Whom", "Whose", "Which"],
+              "correct": "2"
+            },
+            {
+              "title": "___ is he?",
+              "rule":"“How” is used in two ways: to describe a method or to describe something's condition or state.",
+              "variants": ["How", "What", "When", "Whom"],
+              "correct": "0"
+            },
+            {
+              "title": "___ cars are there?",
+              "rule":"“How many” and “how much” are used in questions to ask about quantity (countable and uncountable).",
+              "variants": ["How much", "How old", "How far", "How many"],
+              "correct": "3"
+            },
+            {
+              "title": "___ are you?",
+              "rule":"“How old” is used in questions to ask about age.",
+              "variants": ["How old", "How many", "How much", "How long"],
+              "correct": "0"
+            },
+            {
+              "title": "Why ___ you surprised?",
+              "rule":"We can make a negative wh- question with the negative form of the auxiliary verbs “be”, “do” and “have”.",
+              "variants": ["aren’t", "isn’t", "didn’t", "don’t"],
+              "correct": "0"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "Level":"Pre-intermediate.",
+    "ListOfTests":
+      [ 
+        {
+          "title":"1. Articles.",
           "Tests": 
           [
             {
@@ -22,375 +988,1430 @@
             {
               "title": "___ electricity has become more expensive recently.",
               "rule":"We never use a/an with uncountable nouns.",
-              "variants": [
-                "...",
-                "An",
-                "A",
-                "The"
-                ],
+              "variants": ["...", "An", "A", "The"],
               "correct": "0"
             },
             {
               "title": "Who is ___ president of Ukraine?",
               "rule":"We use the definite article in front of a noun when we believe the listener/reader knows exactly what we are referring to:",
-              "variants": [
-                "an",
-                "a",
-                "...",
-                "the"
-                ],
+              "variants": ["an", "a", "...", "the"],
               "correct": "3"
             },
             {
               "title": "He is ___ tallest boy in the class.",
               "rule":"We use the definite article with a superlative adjective",
-              "variants": [
-                "the",
-                "an",
-                "a",
-                "..."
-                ],
+              "variants": ["the", "an", "a", "..."],
               "correct": "0"
             },
             {
               "title": "My ___ son is graduating from school.",
               "rule":"Do not use any articles when sentences are about a general idea elaborating a noun that is uncountable.",
-              "variants": [
-                "a",
-                "...",
-                "an",
-                "the"
-                ],
+              "variants": ["a", "...", "an", "the"],
               "correct": "1"
             },
             {
               "title": "She is learning ___ guitar.",
               "rule":"We use the definite article in this way to talk about musical instruments.",
-              "variants": [
-                "an",
-                "a",
-                "the",
-                "..."
-                ],
+              "variants": ["an", "a", "the", "..."],
               "correct": "2"
             },
             {
               "title": "She thinks she is ___ Elizabeth Queen.",
               "rule":"A/An is used to convert a proper noun into a common one. ",
-              "variants": [
-                "...",
-                "the",
-                "an",
-                "a"
-                ],
+              "variants": ["...", "the", "an", "a"],
               "correct": "2"
             },
             {
               "title": "Mr. Brown is ___ Englishman who immigrated to this country in 1968.",
               "rule":"English requires the presence of indefinite articles to indicate membership:",
-              "variants": [
-                "the",
-                "an",
-                "...",
-                "a"
-                ],
+              "variants": ["the", "an", "...", "a"],
               "correct": "1"
             },
             {
               "title": "She is visiting ___ United States.",
               "rule":"Use the with countries that include the words republic, kingdom, or states in their names.",
-              "variants": [
-                "...",
-                "a",
-                "the",
-                "an"
-                ],
+              "variants": ["...", "a", "the", "an"],
               "correct": "2"
             },
             {
               "title": "He is ___ amazing contemporary dancer.",
               "rule":"The descriptive adjective is preceded by the indefinite article (a/an).",
-              "variants": [
-                "an",
-                "the",
-                "a",
-                "..."
-                ],
+              "variants": ["an", "the", "a", "..."],
               "correct": "0"
             },
             {
               "title": "French is spoken in ___ Tahiti.",
               "rule":"Do not use the with the names of languages.",
-              "variants": [
-                "an",
-                "a",
-                "the",
-                "..."
-                ],
+              "variants": ["an", "a", "the", "..."],
               "correct": "3"
             },
             {
               "title": "My brother lives next door to ___ Jacksons",
               "rule":"The can be used with plural family names to refer to the family as a group",
-              "variants": [
-                "a",
-                "...",
-                "the",
-                "an"
-                ],
+              "variants": ["a", "...", "the", "an"],
               "correct": "2"
             },
             {
               "title": "He thinks he is ___ Shakespeare.",
-              "rule":"Here, ‘Shakespeare’ does not refer to the actual person but someone like him.",
-              "variants": [
-                "an",
-                "a",
-                "...",
-                "the"
-                ],
+              "rule":"Here, “Shakespeare” does not refer to the actual person but someone like him.",
+              "variants": ["an", "a", "...", "the"],
               "correct": "1"
             },
             {
               "title": "He is bad at ___ chemistry.",
               "rule":"Some common types of nouns that don’t typically use articles include: languages, sports, school subjects, names, abstract nouns.",
-              "variants": [
-                "...",
-                "an",
-                "a",
-                "the"
-                ],
+              "variants": ["...", "an", "a", "the"],
               "correct": "0"
             }
           ]
         },
         {
-          "title":"2. Plural Nouns",
+          "title":"2. Modal verbs.",
           "Tests": 
           [
             {
-              "title": "There are 10 ___ in the classroom. ",
-              "rule": "For most nouns, the rule is simple: add the letter ‘s’ to the end of the word, and that forms the plural version.",
-              "variants": ["chairies", "chairs", "chair", "chaires"],
-              "correct": "1"
-            },
-            {
-              "title": "Both ___ are late. I will take the subway to college. ",
-              "rule":"If a word ends in the letters ‘s’, ‘x’, ‘z’, ‘ch’, and ‘sh’, you add ‘es’ to the end to make it plural.",
-              "variants": ["buses", "buse", "busses", "bus"],
-              "correct": "0"
-            },
-            {
-              "title": "Where are my ___ ?",
-              "rule":"When the ‘y’ follows a vowel, the plural is formed by retaining the ‘y’ and adding -s.",
-              "variants": ["toyes", "toy", "toyies", "toys"],
-              "correct": "3"
-            },
-            {
-              "title": "He learned to buy old ___ and repair them.",
-              "rule":"Nouns that end in ‘o’ preceded by a vowel are made plural by adding ‘-s’.",
-              "variants": ["radio", "radios", "radioes", "radies"],
-              "correct": "1"
-            },
-            {
-              "title": "My favorite American ___ are Los Angeles and Miami. ",
-              "rule":"If a noun ends in ‘y’, we need to drop the ‘y’ and add ‘ies’ to form the plural.",
-              "variants": ["city", "citi", "cities", "citis"],
+              "title": "In California, you ___ have a driver's license to drive a car.",
+              "rule": "Modal verbs are a type of auxiliary verb that go directly before the main verb. We often use “must” to say that something is essential or necessary.",
+              "variants": ["could", "ought to", "must", "can"],
               "correct": "2"
             },
             {
-              "title": "I saw ___ in the Appennines.",
-              "rule":"The plural form of some nouns that end in ‘f’ or ‘fe’ is made by changing the ending to -V(es).",
-              "variants": ["wolf", "wolfes", "wolves", "wolwes"],
+              "title": "It ___ be very cold here in winter.",
+              "rule":"We use “can” to make general statements about what is possible.",
+              "variants": ["should", "could", "can", "ought to"],
               "correct": "2"
             },
             {
-              "title": "There were some low brick buildings with flat ___.",
-              "rule":"For nouns that end in ‘f’ and ‘fe’, we need to drop them and add ‘ves’. Words that do not follow the ‘ves’ rule: roofs, beliefs, chefs, chiefs.",
-              "variants": ["roofs", "roof", "rooves", "roofes"],
-              "correct": "0"
-            },
-            {
-              "title": "She always makes ___ for lunch.",
-              "rule":"When we have a singular noun that ends in ‘o’, we simply add ‘es’ to make it plural.",
-              "variants": ["potatoe", "potatos", "potato", "potatoes"],
+              "title": "___ we come a bit later?",
+              "rule":"We use “may” to ask for permission in a formal way.",
+              "variants": ["shall", "could", "might", "may"],
               "correct": "3"
             },
             {
-              "title": "The major movie ___ are located in Hollywood.",
-              "rule":"For those words which have a vowel before the ‘o’ (like ‘oo’ or ‘io’) we just need to add ‘s’.",
-              "variants": ["studio", "studios", "studies", "studioes"],
+              "title": "I thought we ___ be late.",
+              "rule":"We use “would” as the past of will, to describe past beliefs about the future.",
+              "variants": ["will", "would", "could", "may"],
               "correct": "1"
             },
             {
-              "title": "Amazon offers a big selection of kitchen ___.",
-              "rule":"If a noun ends with ‘f’ or ‘fe’, then the plural form of the noun ends with ‘ves’ instead of ‘f’ or ‘fe’.",
-              "variants": ["knives", "knivs", "knive", "knies"],
-              "correct": "0"
+              "title": "You ___ go home now.",
+              "rule":"We use “can” to give permission.",
+              "variants": ["would", "can", "may", "should"],
+              "correct": "1"
             },
             {
-              "title": "There are many different varieties of ___.",
-              "rule":"If a word ends in ‘us’, the plural version of the noun will end in ‘i’.",
-              "variants": ["cacti", "cactuses", "cactus", "cactusis"],
-              "correct": "0"
-            },
-            {
-              "title": "It wasn't necessary to count ___.",
-              "rule":"These nouns don’t change at all: sheep, deer, fish, moose, shrimp",
-              "variants": ["sheepies", "sheepes", "sheep", "sheeps"],
-              "correct": "2"
-            },
-            {
-              "title": "That evening all the ___ got together to wrap gifts.",
-              "rule":"Some nouns convert into a plural by changing the vowels inside the singular form.",
-              "variants": ["woman", "womans", "womens", "women"],
+              "title": "John ___ be in his office.",
+              "rule":"We use “will” to express beliefs about the present or future.",
+              "variants": ["may", "ought to", "should", "will"],
               "correct": "3"
             },
             {
-              "title": "King made her one of his ___.",
-              "rule":"The plural form of some nouns that end in ‘f’ or ‘fe’ is made by changing the ending to ‘-V(es)’.",
-              "variants": ["wives", "wife", "wifes", "wifs"],
+              "title": "We really ___ get together for dinner sometime.",
+              "rule":"We use “must” to show omething, that is highly recommended (stronger than using should).",
+              "variants": ["can", "must", "should", "will"],
+              "correct": "1"
+            },
+            {
+              "title": "We ___ forget our books.",
+              "rule":"“Mustn’t” means “Don't do it!” If you do it, you will be in trouble.",
+              "variants": ["mustn’t", "oughtn’t", "wouldn’t", "can’t"],
               "correct": "0"
             },
             {
-              "title": "The ___ are white and strong.",
-              "rule":"Here are the most common plural irregular nouns in English: children, men, geese, people, teeth, feet.",
-              "variants": ["teeths", "teeth", "tooth", "toohs"],
+              "title": "___ you take a message, please?",
+              "rule":"We use “could you” as a polite way of telling or asking someone to do something. “Can” is less polite.",
+              "variants": ["May", "Can", "Could", "Ought"],
+              "correct": "2"
+            },
+            {
+              "title": "You ___ to listen carefully.",
+              "rule":"“Ought to” has a similar meaning to “should”. Used less frequently than “should”, “ought” is always followed by a verb in the infinitive with “to”.",
+              "variants": ["ought", "might", "could", "can"],
+              "correct": "0"
+            },
+            {
+              "title": "It looks nice, but it ___ be very expensive.",
+              "rule":"We use “might” when we are not sure about something in the present or future.",
+              "variants": ["could", "might", "may", "ought to"],
+              "correct": "1"
+            },
+            {
+              "title": "Students ___ travel for free.",
+              "rule":"We use “can’t” to refuse permission or say that someone does not have permission.",
+              "variants": ["mightn’t", "oughtn’t", "shouldn’t", "can’t"],
+              "correct": "3"
+            },
+            {
+              "title": "What ___ I wear?",
+              "rule":"We use “should” when offering advice or opinions.",
+              "variants": ["could", "will", "should", "ought"],
+              "correct": "2"
+            },
+            {
+              "title": "You ___ wear a seatbelt at all times.",
+              "rule":"We use “must” to express obligation or duty. This also refers to laws and regulations.",
+              "variants": ["must", "ought", "can", "might"],
+              "correct": "0"
+            },
+            {
+              "title": "___ I just interrupt for a moment?",
+              "rule":"We use “might” as a very polite way of asking for permission.",
+              "variants": ["Must", "Might", "Can", "Ought"],
               "correct": "1"
             }
           ]
         },
         {
-          "title":"React",
+          "title":"3. Comparatives and superlatives.",
           "Tests": 
           [
             {
-              "title": "React - is ... ?",
-              "rule": "React is a JavaScript library for building user interfaces.",
-              "variants": ["Library.", "Framework.", "Application.", "Something else."],
-              "correct": "0"
-            },
-            {
-              "title": "Component - is ... ",
-              "rule":"A Component is one of the core building blocks of React.",
-              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "title": "The climate is ___ than that of New Zealand.",
+              "rule": "Comparative adjectives are used to compare differences between the two objects they modify. To form the comparative, we add “-er” to the end of the adjective.",
+              "variants": ["the colder", "colder", "coldest", "the most coldest"],
               "correct": "1"
             },
             {
-              "title": "What is JSX?",
-              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
-              "variants": [
-                "This is simple HTML.",
-                "This is function.",
-                "This is library.",
-                "This is HTML, but with the ability to complete JS."
-                ],
+              "title": "January is the ___ month.",
+              "rule":"Superlative adjectives are used to describe an object which is at the upper or lower limit of a quality. To form the superlative, we add “-est” to the end of the adjective.",
+              "variants": ["colder", "cold", "coldest", "more coldest"],
+              "correct": "2"
+            },
+            {
+              "title": "Laser printers usually produce the ___ results.",
+              "rule":"When an adjective ends in the letter “e”, we just add “-st” for superlatives.",
+              "variants": ["nicest", "nice", "niceest", "nicer"],
+              "correct": "0"
+            },
+            {
+              "title": "The ___ shopping day of the year ranges from December 18-24.", 
+              "rule":"To form the superlative for adjectives ending in “y” we remove the “y” and add “-iest” to the end of the adjective.",
+              "variants": ["busyest", "busyer", "busiest", "busier"],
+              "correct": "2"
+            },
+            {
+              "title": "It was a small metal container no ___ than a matchbox.", 
+              "rule":"When an adjective ends in the letter “e”, we just add “-r” for comparatives.",
+              "variants": ["larger", "largeer", "largeest", "largest"],
+              "correct": "0"
+            },
+            {
+              "title": "I want to have a ___ computer.", 
+              "rule":"Adjectives with three or more syllables form the comparative by putting “more” in front of the adjective.",
+              "variants": ["powerfulest", "more powerful", "most powerful", "powerfuler"],
+              "correct": "1"
+            },
+            {
+              "title": "Mike is ___ than Isaac.", 
+              "rule":"To form the comparative for adjectives ending in “y” we remove the “y” and add “-ier” to the end of the adjective.",
+              "variants": ["funnier", "more funny", "more funnier", "funniest"],
+              "correct": "0"
+            },
+            {
+              "title": "His silence was ___ than his anger.", 
+              "rule":"There are also some irregular adjectives. We just need to learn these forms. In this case: bad → worse → worst.",
+              "variants": ["badder", "baddest", "worse", "worst"],
+              "correct": "2"
+            },
+            {
+              "title": "His third book was the ___.", 
+              "rule":"Adjectives with three or more syllables form the superlative by putting “most” in front of the adjective.",
+              "variants": ["more interesting", "most interesting", "interestingest", "interestinger"],
+              "correct": "1"
+            },
+            {
+              "title": "It was ___ day I have ever had.", 
+              "rule":"For adjectives with 2 syllables (that don't end in “-y”) and higher (3, 4 syllables etc), we use “more” for comparatives and “the most” for superlatives.",
+              "variants": ["more wonderful", "wonderfuler", "the wonderfulest", "the most wonderful"],
+              "correct": "3"
+            },
+            {
+              "title": "There is my ___ reason.", 
+              "rule":"When an adjective ends in a consonant + short vowel + consonant (C + V + C), we normally double the last letter.",
+              "variants": ["bigest", "bigger", "the most bigger", "biggest"],
+              "correct": "3"
+            },
+            {
+              "title": "I'll do the ___ I can.", 
+              "rule":"A few adjectives just don’t follow the rules at all. These include the words “good”, “well”, “bad”, “old” and “far”. In this case: good → better → best.",
+              "variants": ["goodest", "best", "wellest", "bettest"],
+              "correct": "1"
+            },
+            {
+              "title": "He is my ___ brother.", 
+              "rule":"We use elder / eldest when we are talking about family relationships and normally only before a noun (not by itself unless it is a pronoun).",
+              "variants": ["the most eldest", "elder", "old", "the most oldest"],
+              "correct": "1"
+            },
+            {
+              "title": "The child seems to be getting ___.", 
+              "rule":"When comparing how ill people are, you will normally hear “worse” → “the worst” or “sicker” → “sickest” but not “iller” or “illest”.",
+              "variants": ["iller", "illest", "sicker", "sickest"],
+              "correct": "2"
+            },
+            {
+              "title": "Are you ___ I am?", 
+              "rule":"We use the form “as + adjective + as” to say that things are or aren’t the same.",
+              "variants": ["as hungry as", "as hungrier as", "as hungriest as", "as hungryer as"],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"4. Conjunctions.",
+          "Tests": 
+          [
+            {
+              "title": "I know you must be tired, ___ I will let you rest.",
+              "rule": "Conjunctions are words which connect sentences or groups of words. In this case we use coordinating conjunction “so” for showing the consequence of something.",
+              "variants": ["for", "so", "because", "as"],
+              "correct": "1"
+            },
+            {
+              "title": "I love dogs ___ they are so cute.",
+              "rule":"Subordinating conjunctions are conjunctions that connect a main (independent) clause and a subordinate (dependent) clause. In this case we use “because” to express cause or reason.",
+              "variants": ["because", "before", "how", "after"],
+              "correct": "0"
+            },
+            {
+              "title": "___ just my sister ___ my friends were all there as well.",
+              "rule":"Correlative conjunctions connect two balanced clauses, phrases, or words. In this case, “were” matches the plurality of “friends” rather than matching it to the singular “sister.",
+              "variants": ["Not ... but", "Either ... or", "Not sooner ... then", "Whether ... or"],
+              "correct": "0"
+            },
+            {
+              "title": "It is a beautiful day, ___ yesterday it was cold.",
+              "rule":"Coordinating conjunctions coordinate or join two or more sentences, main clauses, words. In this case conjection “but” connects two different things that are not in agreement.",
+              "variants": ["nor", "or", "but", "because"],
+              "correct": "2"
+            },
+            {
+              "title": "Do you want a red one ___ a blue one?",
+              "rule":"Coordinating conjunction “or” indicates a choice between two things.",
+              "variants": ["yet", "for", "or", "so"],
+              "correct": "2"
+            },
+            {
+              "title": "He glanced up ___ smiled.",
+              "rule":"Coordinating conjunction “and” means “in addition to”.",
+              "variants": ["but", "and", "or", "so"],
+              "correct": "1"
+            },
+            {
+              "title": "I'll be fine ___ we rest for a little bit.",
+              "rule":"Subordinating conjunction “after” indicates “subsequently to the time when”.",
+              "variants": ["although", "before", "because", "after"],
+              "correct": "3"
+            },
+            {
+              "title": "You can watch TV ___ you finish your homework.",
+              "rule":"Subordinating conjunction “if” means “in the event that”.",
+              "variants": ["although", "if", "because", "how"],
+              "correct": "1"
+            },
+            {
+              "title": "He heard ___ the clock ___ the birds.",
+              "rule":"“Neither ... nor” are correlative conjunctions used to convey negative or invalid options. They must be used in parallel structure”.",
+              "variants": ["neither ... nor", "either ... or", "both ... but", "not ... not"],
+              "correct": "0"
+            },
+            {
+              "title": "He’s seventy-two, ___ he still swims regulary.",
+              "rule":"Coordinating conjunction “yet” indicates contrast with something.",
+              "variants": ["and", "unless", "if", "yet"],
+              "correct": "3"
+            },
+            {
+              "title": "Don’t go anywhere ___ I come back.",
+              "rule":"Subordinating conjunction “until” means “up to the time that...”.",
+              "variants": ["although", "until", "while", "whether"],
+              "correct": "1"
+            },
+            {
+              "title": "She didn’t know ___ he was laughing ___ crying.",
+              "rule":"We use correlative conjunction “whether ... or” to introduce a clause giving two options or alternatives.",
+              "variants": ["either ... or", "whether ... or", "neither ... nor", "not only ... but also"],
+              "correct": "1"
+            },
+            {
+              "title": "___ it was raining, I ran home.",
+              "rule":"Subordinating conjunction “although” means “in spite of the fact that”.",
+              "variants": ["Although", "Once", "Since", "While"],
+              "correct": "0"
+            },
+            {
+              "title": "___ rugby ___ football are popular in France.",
+              "rule":"Correlative conjunction “both ... and” refers to two things or people together. It is always considered plural in a sentence.",
+              "variants": ["Either ... or", "Neither ... nor", "Both ... and", "Whether ... or"],
+              "correct": "2"
+            },
+            {
+              "title": "___ you see him, you will recognize him.",
+              "rule":"Subordinating conjunction “once” indicates ”at the moment when”.",
+              "variants": ["Although", "Where", "Unless", "Once"],
+              "correct": "3"
+            }
+          ]
+        },
+        {
+          "title":"5.Present perfect.",
+          "Tests": 
+          [
+            {
+              "title": "She has ___ here all her life.",
+              "rule": "The present perfect tense is a tense used to describe an action that has already happened at a given time. It’s easily recognized by the auxiliary verbs “have” and has.",
+              "variants": ["lives", "living", "lived", "live"],
+              "correct": "2"
+            },
+            {
+              "title": "He ___ his homework.",
+              "rule":"To create the present perfect tense of any verb, you will combine the present tense of the verb “to have” plus the past participle of the main verb of the sentence.",
+              "variants": ["has finished", "have finished", "had finished", "have finish."],
+              "correct": "0"
+            },
+            {
+              "title": "I ___ to the store three times today.",
+              "rule":"We can use the present perfect tense to describe an action that is being repeated between the past and present.",
+              "variants": ["have went", "has go", "has gone", "have gone"],
+              "correct": "3"
+            },
+            {
+              "title": "She ___ the director of that company since 2007.",
+              "rule":"We can use the present perfect tense to describe an action that started in the past and is still continuing in the future.",
+              "variants": ["has be", "has been", "had be", "had been"],
+              "correct": "1"
+            },
+            {
+              "title": "I have just ___ my internship at the museum.",
+              "rule":"We can use the present perfect tense to describe an action that was completed in the recent past.",
+              "variants": ["finishd", "finish", "finishes", "finished"],
+              "correct": "3"
+            },
+            {
+              "title": "She ___ her wedding ring.",
+              "rule":"We can use the present perfect tense to describe an action when time was not an important aspect.",
+              "variants": ["had lost", "has lose", "has lost", "had lose"],
+              "correct": "2"
+            },
+            {
+              "title": "I ___ the love of my life!",
+              "rule":"We can use the present perfect tense to add significance to a completed action.",
+              "variants": ["have met", "have meet", "has met", "has meet"],
+              "correct": "0"
+            },
+            {
+              "title": "It ___ a lot this month.",
+              "rule":"We can use the present perfect tense to describe an action that has not yet been finished.",
+              "variants": ["have rain", "has rain", "has raind", "has rained"],
+              "correct": "3"
+            },
+            {
+              "title": "I have seen that film ___.",
+              "rule":"We do not use the present perfect with adverbials which refer to a finished past time.",
+              "variants": ["today", "yesterday", "in 2017", "last week"],
+              "correct": "0"
+            },
+            {
+              "title": "They have ___ been born.",
+              "rule":"“Just” is time-related adverb in the present perfect tense that is used to convey that the event happened a short time ago.",
+              "variants": ["yet", "still", "since", "just"],
+              "correct": "3"
+            },
+            {
+              "title": "___ done it?",
+              "rule":"Present perfect tense can be used in questions, we just need to exchange the subject and the auxiliary verb.",
+              "variants": ["They have", "Have they", "Has they", "They has"],
+              "correct": "1"
+            },
+            {
+              "title": "Has Jerry presented his ideas to the CEO ___?",
+              "rule":"Present perfect tense can also be used in questions using the words “already” and “yet”. We use “yet” at the end of the sentence.",
+              "variants": ["since", "already", "still", "yet"],
+              "correct": "3"
+            },
+            {
+              "title": "He ___ written a story.",
+              "rule":"We form the structure of the present perfect negative, like the following: Subject + have/has + -not + past participle verb + any extra information.",
+              "variants": ["have not", "not", "not has", "has not"],
+              "correct": "3"
+            },
+            {
+              "title": "You're the most perfect person I've ___ met.",
+              "rule":"We often use the adverb “ever” to talk about experience up to the present and we “never” for the negative form.",
+              "variants": ["never", "since", "ever", "yet"],
+              "correct": "2"
+            },
+            {
+              "title": "I have gone for a walk every Tuesday ___.",
+              "rule":"Do not use the present perfect tense with a specific time. Using the present perfect tense with a general time range is perfectly acceptable.",
+              "variants": ["...", "last week", "this year", "two years ago"],
               "correct": "2"
             }
           ]
-        }
-      ]
-  },
-  {
-    "Level":"Pre-Intermediate",
-    "ListOfTests":
-      [ 
+        },
         {
-          "title":"React",
+          "title":"6. Indefinite pronouns.",
           "Tests": 
           [
             {
-              "title": "React - is ... ?",
-              "rule": "React is a JavaScript library for building user interfaces.",
-              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "title": "___ enjoyed the concert.",
+              "rule": "Indefinite pronouns are those referring to one or more unspecified objects, beings, or places. We use pronouns ending in “-body” or “-one” for people.",
+              "variants": ["Everybody", "Nothing", "Something", "Anything"],
               "correct": "0"
             },
             {
-              "title": "Component - is ... ",
-              "rule":"A Component is one of the core building blocks of React.",
-              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "title": "___ cares how I feel!",
+              "rule":"“Nobody” is used to show no one at all. It is a singular indefinite pronoun.",
+              "variants": ["Everybody", "Nobody", "Everyone", "Anybody"],
               "correct": "1"
             },
             {
-              "title": "What is JSX?",
-              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
-              "variants": [
-                "This is simple HTML.",
-                "This is function.",
-                "This is library.",
-                "This is HTML, but with the ability to complete JS."
-                ],
+              "title": "You need me to call ___?",
+              "rule":"“Anyone” is used to refer to everyone without any specification. Anyone is the usual choice in negative statements and in questions.",
+              "variants": ["no one", "nobody", "everyone", "anyone"],
+              "correct": "3"
+            },
+            {
+              "title": "Did you have ___ in mind?",
+              "rule":"We use pronouns ending in “-thing” for one or more unspecified objects or places. “Something” means a thing that is unknown. It is often used in positive sentences.",
+              "variants": ["some thing", "something", "every thing", "everything"],
+              "correct": "1"
+            },
+            {
+              "title": "___ is a show of force for you, isn't it?",
+              "rule":"“Everything” means all the things. It is used in affirmative, negative and interrogative sentences when we want to be inclusive.",
+              "variants": ["Something", "Everything", "Anything", "Nothing"],
+              "correct": "1"
+            },
+            {
+              "title": "I don't think ___.",
+              "rule":"“Anything” means a thing of any kind. Use it in questions and negative sentences. It can also be used to to mean “I don't mind”.",
+              "variants": ["anything", "something", "everything", "Nothing"],
+              "correct": "0"
+            },
+            {
+              "title": "___ to do here.",
+              "rule":"“Nothing” means no single thing. Used as subjects of a sentence or question.",
+              "variants": ["Nothing", "Anything", "Everything", "Anything"],
+              "correct": "0"
+            },
+            {
+              "title": "One of the men forgot ___ lunch.",
+              "rule":"Singular indefinite pronouns take on a singular verb or singular personal pronoun.",
+              "variants": ["they", "his", "him", "their"],
+              "correct": "1"
+            },
+            {
+              "title": "___ came.",
+              "rule":"We do not use another negative in a clause with nobody, no one or nothing.",
+              "variants": ["Nobody doesn’t", "Nobody didn’t", "Nobody", "Nobody don’t"],
               "correct": "2"
+            },
+            {
+              "title": "They were staying in ___ house.",
+              "rule":"We can add “'s” to an indefinite pronoun to make a possessive.",
+              "variants": ["somebodies", "somebody", "somebodys", "somebody’s"],
+              "correct": "3"
+            },
+            {
+              "title": "A ___ of the members were not satisfied with the service.",
+              "rule":"“Few” means a small number of people/objects. Hence, it is a plural indefinite pronoun.",
+              "variants": ["many", "few", "both", "some"],
+              "correct": "1"
+            },
+            {
+              "title": "___ cake is worth trying.",
+              "rule":"Be very careful about confusing indefinite pronouns with determiners. In this case “each” used as a determiner.",
+              "variants": ["Everyone", "Anyone", "Each", "Some"],
+              "correct": "2"
+            },
+            {
+              "title": "And how handsome they ___!",
+              "rule":"When plural indefinite pronouns is the subject, the verb is also plural.",
+              "variants": ["several is", "several are", "each are", "both are"],
+              "correct": "3"
+            },
+            {
+              "title": "___ of the gorillas are friendly.",
+              "rule":"When all, any, more, most, none, some, and such refer to something, they become singular or plural based on that thing or those things.",
+              "variants": ["None", "Such", "Few", "Others"],
+              "correct": "0"
+            },
+            {
+              "title": "Has ___ of you seen my fishing pole? ",
+              "rule":"Use “any one” or “every one” to refer to the individual or a single item. (The indefinte pronoun “any” or “every” modifies “one”.)",
+              "variants": ["everyone", "any one", "every one", "anyone"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"7. Past perfect.",
+          "Tests": 
+          [
+            {
+              "title": "She ___ the test.",
+              "rule": "To create the past perfect tense, use the past tense of the verb “to have” (had) and the past participle of the main verb. ",
+              "variants": ["have finish", "had finished.", "have finished", "had finish"],
+              "correct": "1"
+            },
+            {
+              "title": "___ decided.",
+              "rule":"In order to make past perfect tense negative, we just put the word “not” after the word “had”. ",
+              "variants": ["I hadn’t", "Hadn’t I", "I hasn’t", "Hasn’t I"],
+              "correct": "0"
+            },
+            {
+              "title": "___ brother already heard that news?",
+              "rule":"To make interrogative sentences in the past perfect tense, we just put the word “had” or “did” at the beginning of the sentence.",
+              "variants": ["Have your", "Your had", "Your have", "Had your"],
+              "correct": "3"
+            },
+            {
+              "title": "I ___ ten fish before my dad caught one.",
+              "rule":"The past perfect refers to a time earlier than before now. It used to make it clear that one event happened before another in the past.",
+              "variants": ["had catch", "had caught", "have caught", "have catch"],
+              "correct": "1"
+            },
+            {
+              "title": "The train ___ when I arrived at the station.",
+              "rule":"“Just” is used with the past perfect to refer to an event that was only a short time earlier than before now.",
+              "variants": ["had just left", "had just leave", "have just left", "just have leave"],
+              "correct": "0"
+            },
+            {
+              "title": "Night came on before ___ finished it.",
+              "rule":"The past perfect tense is used to describe an action that happened before a specific time in the past.",
+              "variants": ["he have", "he has", "he had", "he hasn’t"],
+              "correct": "2"
+            },
+            {
+              "title": "I got stuck in traffic because there ___ an accident.",
+              "rule":"The past perfect tense used to describe cause and effect (combine with Past Simple).",
+              "variants": ["had be", "had been", "had was", "had were"],
+              "correct": "1"
+            },
+            {
+              "title": "___ to London twice by the time I got a job in New York.",
+              "rule":"The past perfect tense is used to emphasize the result of activity in the past.",
+              "variants": ["I had been", "Had I been", "Been had I", "Had been I"],
+              "correct": "0"
+            },
+            {
+              "title": "My family ___ to see the Capitol.",
+              "rule":"The past perfect tense is used to express an unfulfilled wish or desire.",
+              "variants": ["has wish", "has wished", "had wish", "had wished"],
+              "correct": "3"
+            },
+            {
+              "title": "If you ___ me well, I wouldn't have made a mistake.",
+              "rule":"The past perfect tense is used to express an unfulfilled condition in the past time.",
+              "variants": ["had instruct", "had instructed", "has instructed", "has instruct"],
+              "correct": "1"
+            },
+            {
+              "title": "___ said that made him so angry?",
+              "rule":"To create a wh-question, start with the wh-word, then add “had”, then the subject, followed by the V3 form of the verb, and only then add the rest of the sentence.",
+              "variants": ["They had what", "What they had", "What had they", "Had what they"],
+              "correct": "2"
+            },
+            {
+              "title": "They had been in business together, ___?",
+              "rule":"Tag questions are formed by writing a regular sentence in the past perfect simple, then by adding “had” or “hadn’t” and a pronoun (I, you, we, they, he, she, it) and a question mark.",
+              "variants": ["we hadn’t", "hadn’t we", "hadn’t they", "they hadn’t"],
+              "correct": "2"
+            },
+            {
+              "title": "I had just ___ outside when it started to rain.",
+              "rule":" The past participle form of “to go” is “gone” and not “went”, so that is used to form the past perfect form as well.",
+              "variants": ["gone", "goes", "gone", "went"],
+              "correct": "2"
+            },
+            {
+              "title": "___ gone home.",
+              "rule":"When we use the past perfect tense in speaking, we often contract the subject and the helping verb. We also sometimes do this in informal writing.",
+              "variants": ["They's", "They", "They've", "They'd"],
+              "correct": "3"
+            },
+            {
+              "title": "She had not worn shoes ___.",
+              "rule":"Time expressions that are used with the past perfect tense: already, yet, for, before, since, just, the moment that, until, etc.",
+              "variants": ["tomorrow", "yet", "next day", "soon"],
+              "correct": "1"
+            }
+          ]
+        },
+        {
+          "title":"8. Future perfect.",
+          "Tests": 
+          [
+            {
+              "title": "By sunset, I will ___ on my homework.",
+              "rule":"In English, the future perfect construction consists of the auxiliary verb “will” (shall) to mark the future, the auxiliary verb “have” to mark the perfect, and the past participle of the main verb.",
+              "variants": ["has worked", "have worked", "had worked", "worked"],
+              "correct": "1"
+            },
+            {
+              "title": "I will ___ my room before my parents come home.",
+              "rule":"The future perfect is used to talk about an action that will finish before a certain time in the future.",
+              "variants": ["has cleaned", "cleaned", "had cleaned", "have cleaned"],
+              "correct": "3"
+            },
+            {
+              "title": "The guests ___ arrived at the hotel by now.",
+              "rule":"The future perfect is used to express conviction that something happened in the near past.",
+              "variants": ["will have", "will has", "shall have", "shall has"],
+              "correct": "0"
+            },
+            {
+              "title": "I will ___ a famous musician someday.",
+              "rule":"We do not use the future perfect tense if there is no stated deadline or if we aren’t comparing future events.",
+              "variants": ["have become", "have became", "become", "had become"],
+              "correct": "2"
+            },
+            {
+              "title": "She ___ won the first prize.",
+              "rule":"When we use “have” with “will” in the future, we do not change “have” to “has” in the third-person singular.",
+              "variants": ["will has", "has will", "have will", "will have"],
+              "correct": "3"
+            },
+            {
+              "title": "He ___ done it by this evening.",
+              "rule":"We need to put the word “not” between the words “will” and “have” to make the future perfect tense negative.",
+              "variants": ["will not have", "will not have", "not will have", "will have not"],
+              "correct": "0"
+            },
+            {
+              "title": "They ___ finished decorating the float before the parade.",
+              "rule":"You can also use the contraction won’t (not “willn’t”).",
+              "variants": ["won’t had", "won’t have", "willn’t have", "willn’t had"],
+              "correct": "1"
+            },
+            {
+              "title": "Will ___ lunch already when we arrive?",
+              "rule":"The interrogative form starts with “will” and the word “have” comes after the subject inside the sentence.",
+              "variants": ["have eaten", "you eaten", "have you eaten", "you have eaten"],
+              "correct": "3"
+            },
+            {
+              "title": "Will ___ forgotten by tomorrow?",
+              "rule":"The interrogative negative form starts with “will” and the words “not have” comes after the subject inside the sentence.",
+              "variants": ["not have", "she not have", "not she have", "she have not"],
+              "correct": "1"
+            },
+            {
+              "title": "___ have done the project by next month?",
+              "rule":"To ask a wh-question in the Future Perfect, we put an additional word or phrase first. Then we use the same word order as in a general question.",
+              "variants": ["How will we", "Will we how", "Will how we", "We how will"],
+              "correct": "0"
+            },
+            {
+              "title": "I will have ___ three cups of coffee by noon tomorrow.",
+              "rule":"When using future perfect verbs, you need to ensure that you use the correct base form of the verb, as well as the correct auxiliary verb. The base verb “drink” should be in its past participle form “drunk”.",
+              "variants": ["drink", "drank", "drunk", "drinking"],
+              "correct": "2"
+            },
+            {
+              "title": "He will have known the whole truth when he ___ home.",
+              "rule":"We can form complex sentences using the future perfect and the present simple. If the second part of the sentence (present) contains the pronoun “he,” “she,” or “it,”  then we add “-s” or “-es” to the main verb.",
+              "variants": ["cames", "came", "comes", "come"],
+              "correct": "2"
+            },
+            {
+              "title": "She will have completed her Europe tour ___.",
+              "rule":"When using Future Perfect, we often use “by,” “until,” and “till.” These words mean something will happen at some time, moment, or action.",
+              "variants": ["last week", "by next month", "yesterday", "___"],
+              "correct": "1"
+            },
+            {
+              "title": "I will have finished all preparations till you ___.",
+              "rule":"After the words “by,” “until,” “till,” “when,” and “by the time,” we use the present simple.",
+              "variants": ["arrive", "arrives", "arrived", "arriving"],
+              "correct": "0"
+            },
+            {
+              "title": "The road will ___ by April.",
+              "rule":"We form the passive voice in the future perfect tense using the word “been.” We put the word been after “will have.”",
+              "variants": ["have be build", "have be built", "have been build", "have been built"],
+              "correct": "3"
+            }
+          ]
+        },
+        {
+          "title":"9. Adverbs of degree.",
+          "Tests": 
+          [
+            {
+              "title": "The water was ___.",
+              "rule": "Adverbs of degree tell us about the intensity of something. They are usually placed before the adjective, adverb, or verb that they modify, although there are some exceptions.",
+              "variants": ["extremely cold", "cold extremely", "___", "extremely"],
+              "correct": "0"
+            },
+            {
+              "title": "He is a ___ skilled engineer.",
+              "rule":"Most adverbs of degree are formed by adding the “-ly” ending.",
+              "variants": ["highy", "higly", "high", "highly"],
+              "correct": "3"
+            },
+            {
+              "title": "They had been ___ married for twenty years.",
+              "rule":"If the word ends in “-y”, then we change the letter “y” to “i” and add the ending “-ly.”",
+              "variants": ["happy", "happily", "happly", "haply"],
+              "correct": "1"
+            },
+            {
+              "title": "He looked ___ sad.",
+              "rule":"If the word ends in “-le”, we remove the “-le” and replace it with the ending “-ly.”",
+              "variants": ["incredibly", "incrediblyly", "incredibely", "incredibl"],
+              "correct": "0"
+            },
+            {
+              "title": "She is running ___ fast.",
+              "rule":"There are some exceptions. These are such adverbs of degree as well, far, fast, very, late, etc.",
+              "variants": ["verily", "veryly", "very", "verie"],
+              "correct": "2"
+            },
+            {
+              "title": "I just felt ___ sad.",
+              "rule":"Gradable adjectives are those that can have measurable levels of degree or intensity. Gradable adjectives are generally only paired with gradable adverbs of degree.",
+              "variants": ["slightly", "completely", "fully", "absolutely"],
+              "correct": "0"
+            },
+            {
+              "title": "Check to make sure either the water is ___ boiling.",
+              "rule":"Non-gradable adjectives describe an absolute state. Ungradable adjectives are generally only paired with ungradable adverbs of degree.",
+              "variants": ["a bit", "unusually", "fully", "very"],
+              "correct": "2"
+            },
+            {
+              "title": "It is ___ freezing.",
+              "rule":"The adverbs fairly, really, quite, pretty can all be used with both gradable and ungradable adjectives.",
+              "variants": ["a little bit", "very", "a bit", "pretty"],
+              "correct": "3"
+            },
+            {
+              "title": "He didn’t finish the exam quickly ___.",
+              "rule":"The word “enough” can be used as another adverb of degree, meaning “sufficiently or to a satisfactory amount or degree.” It always comes after the word it is describing in a sentence.",
+              "variants": ["completely", "enough", "most", "totally"],
+              "correct": "1"
+            },
+            {
+              "title": "The dog was ___ cute.",
+              "rule":"We use “very” before adjectives or adverbs when we want to emphasize the meaning and make it stronger.",
+              "variants": ["almost", "nearly", "very", "just"],
+              "correct": "2"
+            },
+            {
+              "title": "I’ll look forward ___ to your return.",
+              "rule":"If we want to describe the meaning of the adverb “very” for a verb or participle, then it is better to replace the adverb “very” with “very much”.",
+              "variants": ["very", "very much", "enough", "a little"],
+              "correct": "1"
+            },
+            {
+              "title": "Am I ___ late?",
+              "rule":"We use “too” before adjectives or other adverbs when we want to emphasize that there is a lot of something, more than necessary.",
+              "variants": ["nearly", "most", "too", "least"],
+              "correct": "2"
+            },
+            {
+              "title": "It was ___ funny.",
+              "rule":"Adverbs that sound negative, such as “terribly” and “awfully,” can be used with positive or negative adjectives. For example, something can be “awfully funny” or “awfully sad.”",
+              "variants": ["awfully", "badly", "rather", "rapidly"],
+              "correct": "0"
+            },
+            {
+              "title": "The countryside is ___ beautiful.",
+              "rule":"Adverbs of degree, such as “so” and “such,” are used to emphasize a quality that someone or something has.",
+              "variants": ["so", "rather", "thoroughly", "a lot"],
+              "correct": "0"
+            },
+            {
+              "title": "The result did ___ please the researchers.",
+              "rule":"We can change the meaning of some adverbs by using “not.” The adverbs most often used with “not” are: too, quite, terribly, totally, very, and particularly.",
+              "variants": ["not very", "not too", "not so", "not totally"],
+              "correct": "3"
+            }
+          ]
+        },
+        {
+          "title":"10. Present continuous.",
+          "Tests": 
+          [
+            {
+              "title": "The children ___ sleeping.",
+              "rule": "The present continuous tense is built from the verb “to be” in the present simple tense, i.e., am/is/are + present participle of the main verb.",
+              "variants": ["is", "are", "will", "am"],
+              "correct": "1"
+            },
+            {
+              "title": "I'm ___ to begin now.",
+              "rule": "We form the present participle when the ending “-ing” is added to the infinitive.",
+              "variants": ["go", "gone", "went", "going"],
+              "correct": "3"
+            },
+            {
+              "title": "Slowly, people are ___ to realize that.",
+              "rule": "If the verb ends in one consonant preceded by a short, stressed vowel, we double the final consonant before “-ing”.",
+              "variants": ["beginning", "begining", "beganning", "beganing"],
+              "correct": "0"
+            },
+            {
+              "title": "Technologies are ___ everything faster.",
+              "rule": "If the verb ends in “-e,” the “-e” is lost, and the suffix “-ing” is added.",
+              "variants": ["make", "makeng", "making", "made"],
+              "correct": "2"
+            },
+            {
+              "title": "He is ___ to reduce his prison time.",
+              "rule": "If the verbs end in “-ie,” the suffix “-ie,” changes to “-y,” and the suffix “-ing” is added.",
+              "variants": ["ling", "lyeing", "lieing", "lying"],
+              "correct": "3"
+            },
+            {
+              "title": "She ___ with her friends.",
+              "rule": "We use the present continuous to talk about an activity that occurs at the time of speech.",
+              "variants": ["has talking", "is talking", "has talk", "is talk"],
+              "correct": "1"
+            },
+            {
+              "title": "I ___ my sister next weekend.",
+              "rule": "We use the present continuous to talk about fixed plans, agreements, or actions that are certain to happen shortly.",
+              "variants": ["am visiting", "will visiting", "am visit", "is visiting"],
+              "correct": "0"
+            },
+            {
+              "title": "Global competition for investments ___.",
+              "rule": "We use the present continuous to talk about situations that are currently changing and developing.",
+              "variants": ["are increaseing", "are increasing", "is increaseing", "is increasing"],
+              "correct": "3"
+            },
+            {
+              "title": "You are always ___ to close the door.",
+              "rule": "We use the present continuous when we want to express anger and rage. It is usually an action that is constantly repeated, over and over again.",
+              "variants": ["forgoting", "forgetting", "forgeting", "forgotting"],
+              "correct": "1"
+            },
+            {
+              "title": "He is performing in France ___.",
+              "rule": "We use the present continuous to talk about temporary actions: this week/month/summer, etc.",
+              "variants": ["this summer", "yesterday", "2 days ago", "last week"],
+              "correct": "0"
+            },
+            {
+              "title": "I ___ the guitar.",
+              "rule": "To form negative sentences in the present continuous tense we add “not” after the verb “to be” and before the present participle “-ing” that you want to use.",
+              "variants": ["am playing not", "am not playing", "not am playing", "not playing"],
+              "correct": "1"
+            },
+            {
+              "title": "What ___ next week?",
+              "rule": "To form a question in the present continuous tense we change the order of the subject and the verb to be.",
+              "variants": ["doing you are", "you are doing", "doing are you", "are you doing"],
+              "correct": "3"
+            },
+            {
+              "title": "I ___ you.",
+              "rule": "We do not use the present continuous tense with stative verbs. Stative Verbs are verbs that describe a state rather than an action. We normally use the simple present instead.",
+              "variants": ["am understand", "am understanding", "understand", "understanding"],
+              "correct": "2"
+            },
+            {
+              "title": "But you're ___ right.",
+              "rule": "Some state verbs can be used in the present continuous because they describe an action rather than a state. It includes verbs such as: to be, to think, to look, to see, etc.",
+              "variants": ["not thinking", "not think", "not thinks", "not thoughting"],
+              "correct": "0"
+            },
+            {
+              "title": "It’s ___ again soon.",
+              "rule": "We don’t use the present continuous when we predict something. Instead, we use “going to” or “will.”",
+              "variants": ["raining", "go to raining", "going to raining", "going to rain"],
+              "correct": "3"
+            }
+          ]
+        },
+        {
+          "title":"11. Past Continuous.",
+          "Tests": 
+          [
+            {
+              "title": "At three o’clock yesterday, I ___ working in the garden.",
+              "rule": "The past continuous tense, also known as the past progressive tense, describes ongoing actions in the past. It uses the same construction as the present continuous tense except with the past tense of the verb “to be”.",
+              "variants": ["were", "been", "be", "was"],
+              "correct": "3"
+            },
+            {
+              "title": "The team ___ well until the second half.",
+              "rule": "The past continuous tense is formed with the past tense of the verb “to be” and the present participle of a base verb with the ending “-ing” in its most basic form.",
+              "variants": ["were played", "was played", "was playing", "were playing"],
+              "correct": "2"
+            },
+            {
+              "title": "She ___ on the bed when someone knocked on the door.",
+              "rule": "One of the most common reasons we use the past continuous tense is to describe an action that was interrupted by another event.",
+              "variants": ["was lounging", "were lounging", "was lounge", "were lounge"],
+              "correct": "0"
+            },
+            {
+              "title": "She ___ books until midnight.",
+              "rule": "The interrupting event may not actually be stated in the sentence. (She probably decided to go to bed.)",
+              "variants": ["was reading", "was read", "were read", "were reading"],
+              "correct": "0"
+            },
+            {
+              "title": "I was watching TV while ___ with the dog.",
+              "rule": "Another reason we use the past continuous tense is to express that two actions or states were happening at the exact same time.",
+              "variants": ["you were played", "you was playing", "you was played", "you were playing"],
+              "correct": "3"
+            },
+            {
+              "title": "At noon, ___ lunch with my friends.",
+              "rule": "We also use the past continuous tense to say that an action or state was in progress at a specific time.",
+              "variants": ["I was ate", "I were ate", "I was eating", "I were eating"],
+              "correct": "2"
+            },
+            {
+              "title": "Your cat ___ playing with the ball outside when I arrived.",
+              "rule": "If the subject of the sentence is “I,” “she,” “it,” or a singular noun, then “was” is used.",
+              "variants": ["was", "were", "been", "am"],
+              "correct": "0"
+            },
+            {
+              "title": "My kids ___ playing basketball together for hours yesterday.",
+              "rule": "If the subject of the sentence is “we,” “you,” “they,” or a plural noun, then “were” is used.",
+              "variants": ["be", "was", "were", "been"],
+              "correct": "2"
+            },
+            {
+              "title": "The children ___ during the drive home.",
+              "rule": "To make an affirmative (positive) statement negative, we add “not” before the verb with the ending “-ing.” We can also use a contraction “wasn't” or “weren't.”",
+              "variants": ["were sleeping not", "were not sleeping", "not were sleeping", "not sleeping were"],
+              "correct": "1"
+            },
+            {
+              "title": "___ too loud last night?",
+              "rule": "Questions that can be answered with “yes” or “no” answers are formed by inverting the subject and correct form of the verb “be” (was/were).",
+              "variants": ["Were we talking", "We were talking", "Were talking we", "Talking were we"],
+              "correct": "0"
+            },
+            {
+              "title": "___ running late?",
+              "rule": "To create a wh-question, start with the wh-word, then “was” or “were,” then the subject (a person or thing that does the action), followed by the ending “-ing” (participle) form of the verb, and add the rest of the sentence.",
+              "variants": ["The buses why were", "Were why the buses", "Why the buses were", "Why were the buses"],
+              "correct": "3"
+            },
+            {
+              "title": "Jane ___ at my house when you arrived.",
+              "rule": "Stative verbs can not be used in any continuous tenses.  Instead of using past continuous with these verbs, we must use simple past.",
+              "variants": ["were being", "was", "was being", "being"],
+              "correct": "1"
+            },
+            {
+              "title": "I was studying ___ she called.",
+              "rule": "When we talk about things in the past, “when” is most often followed by the verb tense simple past, whereas “while” is usually followed by past continuous.",
+              "variants": ["so", "or", "while", "when"],
+              "correct": "3"
+            },
+            {
+              "title": "I ___ you four times last night. Where were you?",
+              "rule": "We only use the past continuous for repeated background events. If they are repeated main events, we use the past simple.",
+              "variants": ["phoned", "was phoned", "phoning", "was phoning"],
+              "correct": "0"
+            },
+            {
+              "title": "We ___ on holiday to Yorkshire every year when I was little.",
+              "rule": "We don’t use the past continuous in the same way as “used to” when we talk about things in the past which are no longer true.",
+              "variants": ["used to go", "was going", "were going", "was wenting"],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"12. Future Continuous.",
+          "Tests": 
+          [
+            {
+              "title": "It ___ next week.",
+              "rule": "The future continuous tense indicates that an action or state is going to happen in the future. It is formed using the construction will + be + V-ing (the present participle).",
+              "variants": ["was be raining", "will been raining", "were be raining", "will be raining"],
+              "correct": "3"
+            },
+            {
+              "title": "I ___ tennis at 10am tomorrow.",
+              "rule": "The main reason to use the future continuous tense is to point out that future action will take place over a length of time and won’t happen all at once.",
+              "variants": ["will playing", "will been playing", "will be playing", "will been played"],
+              "correct": "2"
+            },
+            {
+              "title": "I will be shopping ___.",
+              "rule": "Typically, we use adverbs or adverbial phrases to clarify that an action or state is occurring over a while.",
+              "variants": ["for several hours", "yesterday", "last week", "a month ago"],
+              "correct": "0"
+            },
+            {
+              "title": "By this time next week, I ___ in Portugal.",
+              "rule": "Another common reason we use the future continuous tense is to make comparisons between the present and the future.",
+              "variants": ["will be surf", "will be surfing", "will been surfing", "will was surfing"],
+              "correct": "1"
+            },
+            {
+              "title": "We will be having dinner ___ the film starts.",
+              "rule": "We can also use the future continuous tense to say that more than one future event will be happening at the same time.",
+              "variants": ["or", "while", "___", "when"],
+              "correct": "3"
+            },
+            {
+              "title": "I ___ help with the repairs tomorrow.",
+              "rule": "Like all other continuous tenses, you can not use the future continuous tense with stative verbs like want, need, love, or hate. Use the simple future tense with stative verbs instead.",
+              "variants": ["will be need", "will be needing", "will need", "will needing"],
+              "correct": "2"
+            },
+            {
+              "title": "The baby ___ crying out loud.",
+              "rule": "When using the future continuous tense with negatives, insert the word “not” after “will” and before “be.”",
+              "variants": ["will not be", "will be not", "not will be", "not be will"],
+              "correct": "0"
+            },
+            {
+              "title": "I ___ cooking pasta for lunch.",
+              "rule": "The short form of “will not” is “won’t.” Therefore, the negative sentences can also be written with “won’t be” instead of “will not be.”",
+              "variants": ["win’t be", "wiln’t be", "willn’t be", "won’t be"],
+              "correct": "3"
+            },
+            {
+              "title": "___ playing in the park?",
+              "rule": "The question sentence starts with “will,” and the word “be” comes after the subject inside the sentence.",
+              "variants": ["The boys be will", "The boys will be", "Will the boys be", "Will be the boys"],
+              "correct": "2"
+            },
+            {
+              "title": "___ working after graduation?",
+              "rule": "Wh-questions are no different from general ones. Only we put a question word or phrase at the beginning of the question.",
+              "variants": ["Where be will you", "Where will you be", "Where will be you", "Where you will be"],
+              "correct": "1"
+            },
+            {
+              "title": "___ staying with us?",
+              "rule": "The negative interrogative sentence starts with “will not,” and the word “be” comes after the subject inside the sentence.",
+              "variants": ["Will not Emma be", "Will Emma be not", "Will not be Emma", "Will Emma not be"],
+              "correct": "3"
+            },
+            {
+              "title": "I will be going to the market, ___?",
+              "rule": "Tag questions are those questions that are answered at the end of the sentence. They can be simply made by adding auxiliary verbs.",
+              "variants": ["will not be you", "will you be not", "will not you be", "will you be not"],
+              "correct": "2"
+            },
+            {
+              "title": "___ on this project with me?",
+              "rule": "We use the future continuous to invite someone. When we use the future continuous, such a sentence looks very polite.",
+              "variants": ["Will you be working", "Will be you working", "Will you working be", "Will working you be"],
+              "correct": "0"
+            },
+            {
+              "title": "She will be exercising at gym ___.",
+              "rule": "Some signal words that will help recognize this tense can be, for example, this time next week/month, in an hour, or at a particular time tomorrow, e.g., at 7 am tomorrow.",
+              "variants": ["last week", "yesterday", "at 8am tomorrow", "a day before"],
+              "correct": "2"
+            },
+            {
+              "title": "___ by the ball if you stand there!",
+              "rule": "The future continuous should not be used for actions that happen suddenly, because those actions are not continuous. Instead, use the simple future.",
+              "variants": ["You will getting hit", "You will get hit", "You will get hitting", "You get will hit"],
+              "correct": "1"
             }
           ]
         }
       ]
   },
   { 
-    "Level":"Intermediate",
+    "Level":"Intermediate.",
     "ListOfTests":
       [ 
         {
-          "title":"React",
-          "Tests":
+          "title":"1. Reflexive pronouns.",
+          "Tests": 
           [
             {
-              "title": "React - is ... ?",
-              "rule": "React is a JavaScript library for building user interfaces.",
-              "variants": ["Library.", "Framework.", "Application.", "Something else."],
-              "correct": "0"
-            },
-            {
-              "title": "Component - is ... ",
-              "rule":"A Component is one of the core building blocks of React.",
-              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "title": "I can take care of ___.",
+              "rule": "Reflexive pronouns end in “-self” or “-selves.” They refer back to the subject forms of personal pronouns. Here, “myself” is the reflexive pronoun referring to “I.”",
+              "variants": ["myselves", "myself", "my self", "my selves"],
               "correct": "1"
             },
             {
-              "title": "What is JSX?",
-              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
-              "variants": [
-                "This is simple HTML.",
-                "This is function.",
-                "This is library.",
-                "This is HTML, but with the ability to complete JS."
-                ],
+              "title": "He smiled to ___.",
+              "rule":"The third-person singular reflexive pronouns are: himself, herself, themself, itself. In this case “himself” refers back to the subject.",
+              "variants": ["themself", "itself", "herself", "himself"],
+              "correct": "3"
+            },
+            {
+              "title": "I hope you both behaved ___.",
+              "rule":"When you refers to more than one person, you use “yourselves” as the object of the verb or preposition.",
+              "variants": ["your selves", "yourselfes", "yourselves", "your selfes"],
+              "correct": "2"
+            },
+            {
+              "title": "Someone painted ___ green!",
+              "rule":"We use “themself” when we use “singular they”. “Singular they” is often used with words like “someone”, “anyone”, or “no one”. ",
+              "variants": ["themself", "themselves", "them selves", "them self"],
+              "correct": "0"
+            },
+            {
+              "title": "We can handle this job by ___.",
+              "rule":"In modern English “ourself” is not considered grammatically correct. “Ourselves” is correct and a reflexive pronoun in English.",
+              "variants": ["our self", "ourselves", "ourself", "our selves"],
+              "correct": "1"
+            },
+            {
+              "title": "___ has many layers.",
+              "rule":"In this case we haven’t reflexive pronoun. “Self” is a noun that means a person’s essential being.",
+              "variants": ["Your self", "Yourself", "Yourselves", "Your selves"],
+              "correct": "0"
+            },
+            {
+              "title": "I hope you both behaved ___.",
+              "rule":"When you refers to more than one person, you use “yourselves” as the object of the verb or preposition.",
+              "variants": ["yourself", "your selves", "your self", "yourselves"],
+              "correct": "3"
+            },
+            {
+              "title": "One should have respect for ___.",
+              "rule":"“Oneself” is the reflexive pronoun for the pronoun “one”. Other forms are incorrect.",
+              "variants": ["oneself", "one selves", "one self", "oneselves"],
+              "correct": "0"
+            },
+            {
+              "title": "Did you go to the movies by ___?.",
+              "rule":"“Yourself” is a pronoun that refers to your own self or someone you are directly talking to.",
+              "variants": ["oneself", "yourself", "myself", "himself"],
+              "correct": "1"
+            },
+            {
+              "title": "The animals ___ figured out how to open the gate.",
+              "rule":"“Themselves” is a reflexive pronoun and is related to the plural forms of the pronouns them and they.",
+              "variants": ["themselfes", "themselv", "themselves", "themself"],
+              "correct": "2"
+            },
+            {
+              "title": "It refilled ___ as if by magic.",
+              "rule":"“Itself” is a reflexive pronoun used to emphasize the subject of the sentence.",
+              "variants": ["it self", "itselves", "its self", "itself"],
+              "correct": "3"
+            },
+            {
+              "title": "John and ___ love flowers.",
+              "rule":"Here, the subject should be “I.” Again, “myself” needs to refer back to something.",
+              "variants": ["I", "my self", "myself", "myselves"],
+              "correct": "0"
+            },
+            {
+              "title": "She bought the rug for ___.",
+              "rule":"You can use reflexive pronouns as the object of a preposition referring back to the subject.",
+              "variants": ["themselves", "herself", "myself", "himself"],
+              "correct": "1"
+            },
+            {
+              "title": "I run the store ___.",
+              "rule":"You can use reflexive pronouns for emphasis or clarification. In this case “myself” means that this person runs the store without any help whatsoever.",
+              "variants": ["ourselves", "myself", "yourelf", "himself"],
+              "correct": "1"
+            },
+            {
+              "title": "He applied ___ in secret to his favourite science.",
+              "rule":"Sometimes, reflexive pronouns can put a spin on the meaning of a verb. This use of “apply” mostly appears in reflexive constructions like this.",
+              "variants": ["himself", "myself", "ownself", "yourself"],
+              "correct": "0"
+            }
+          ]
+        },
+        {
+          "title":"2. Quantifiers.",
+          "Tests": 
+          [
+            {
+              "title": "It rained ____.",
+              "rule": "A quantifier is a word or phrase which is used before a noun to indicate the amount or quantity.  Like all determiners, they come in front of a noun or noun phrase.",
+              "variants": ["day all yesterday", "all day yesterday", "yesterday day all", "day yesterday"],
+              "correct": "1"
+            },
+            {
+              "title": "How ___ miles had they traveled today?",
+              "rule":"We use “many”, “much”, “a lot (of)” to refer to big quantities. We use “many” with countable nouns in the plural.",
+              "variants": ["many", "much", "a lot", "a lot of"],
+              "correct": "0"
+            },
+            {
+              "title": "Too ___ time has passed.",
+              "rule":"Much” is used with uncountable nouns that are always in the singular.",
+              "variants": ["numerous", "a lot", "much", "many"],
+              "correct": "2"
+            },
+            {
+              "title": "We have ___ time left, don’t worry.",
+              "rule":"In modern English it is very common to use “a lot (of)” in affirmative sentences instead of “many” and “much”.",
+              "variants": ["more", "a lot of", "most", "any"],
+              "correct": "1"
+            },
+            {
+              "title": "I have already picked out ___ places.",
+              "rule":"We use “a few”, “a little”, “a bit (of)” to refer to small quantities. We use “a few” with countable nouns in the plural.",
+              "variants": ["a bit", "much", "more", "a few"],
+              "correct": "3"
+            },
+            {
+              "title": "I would like ___ milk for my coffee.",
+              "rule":"We use “a little” with uncountable nouns in the singular.",
+              "variants": ["a little", "much", "more", "a few"],
+              "correct": "0"
+            },
+            {
+              "title": "I've had ___ experience.",
+              "rule":"We use “lots of” in positive and negative sentences, however it is more informal. It can be used with countable or uncountable nouns, and occasionally in questions.",
+              "variants": ["each", "lots of", "any", "either"],
+              "correct": "1"
+            },
+            {
+              "title": "We barely know ___ other.",
+              "rule":"“Each” expresses the idea of “one by one”. It emphasizes individuality. We always use “each” with a singular countable noun.",
+              "variants": ["some", "every", "each", "any"],
+              "correct": "2"
+            },
+            {
+              "title": "___ team scored and the game was a draw.",
+              "rule":"We use “neither” to talk about possible choices between two people or things. “Neither” is negative. It means “not one AND not the other” (of two).",
+              "variants": ["Fewer", "Either", "Neither", "Enough"],
+              "correct": "2"
+            },
+            {
+              "title": "There isn't ___ time.",
+              "rule":"“Enough” can be used before uncountable and plural nouns as a determiner. “Enough” means “as much as necessary”.",
+              "variants": ["most", "enough", "any", "all"],
+              "correct": "1"
+            },
+            {
+              "title": "Someone has taken ___ my books!",
+              "rule":"“All” as a determiner means “the complete number or amount” of something. “All” is used before a countable noun or an uncountable noun.",
+              "variants": ["all", "most", "enough", "some"],
+              "correct": "0"
+            },
+            {
+              "title": "It took me ___ minutes to respond.",
+              "rule":"“Several” means “more than one, but less than a lot”. Normally, we do not use it in negative or interrogative structures, only in affirmative statements.",
+              "variants": ["any", "several", "both", "each"],
+              "correct": "1"
+            },
+            {
+              "title": "Will you have ___ tea?",
+              "rule":"“Any” is most common in negative clauses and questions, but we can use “some” when we are expecting the answer to be “yes”.",
+              "variants": ["most", "any", "least", "some"],
+              "correct": "3"
+            },
+            {
+              "title": "There was ___ need to rush.",
+              "rule":"The determiner “no” is always used in a affirmative sentence. We do not use it in a negative sentence.",
+              "variants": ["no", "any", "each", "either"],
+              "correct": "0"
+            },
+            {
+              "title": "Eric has ___ work to do so he can help you.",
+              "rule":"The comparative form of “little” is “less” and the superlative form of “little” is “least”. We use them with uncountable nouns.",
+              "variants": ["a few", "fewer", "the least", "most"],
               "correct": "2"
             }
           ]
-        }
-      ]
-  },
-  {
-    "Level": "Upper-Intermediate",
-    "ListOfTests":
-      [ 
+        },
         {
-          "title":"React",
-          "Tests":
+          "title":"3. Adverbs of place.",
+          "Tests": 
           [
             {
-              "title": "React - is ... ?",
-              "rule": "React is a JavaScript library for building user interfaces.",
-              "variants": ["Library.", "Framework.", "Application.", "Something else."],
+              "title": "He pointed ___ the valley.",
+              "rule": "Adverbs that change or qualify the meaning of a sentence by telling us where things happen are defined as adverbs of place. These adverbs always answer one question: Where?",
+              "variants": ["too", "soon", "across", "almost"],
+              "correct": "2"
+            },
+            {
+              "title": "They ___.",
+              "rule": "Adverbs of place are usually placed after the main verb or after the clause that they modify.",
+              "variants": ["built a house nearby", "nearby built a house", "built nearby a house", "built a nearby house"],
               "correct": "0"
             },
             {
-              "title": "Component - is ... ",
-              "rule":"A Component is one of the core building blocks of React.",
-              "variants": ["Application.", "Part of an application or page.", "Part of framework", "Something else."],
+              "title": "She ___.",
+              "rule": "The position of the adverb does not change in a negative sentence. An adverb of place can’t be put between a verb and its direct object.",
+              "variants": ["away did not walk", "did not walk away", "did away not walk", "did not away walk"],
               "correct": "1"
             },
             {
-              "title": "What is JSX?",
-              "rule":"JSX is a JavaScript Extension Syntax used in React to easily write HTML and JavaScript together.",
-              "variants": [
-                "This is simple HTML.",
-                "This is function.",
-                "This is library.",
-                "This is HTML, but with the ability to complete JS."
-                ],
+              "title": "___ a computer in the flat.",
+              "rule": "Adverbs like here and there can also appear at the beginning of the sentence. We use “there” when we talk about a place far away from the speaker.",
+              "variants": ["There", "There is", "Here", "Here is"],
+              "correct": "1"
+            },
+            {
+              "title": "We want to go ___ hot this summer.",
+              "rule": "We can divide many adverbs of place into groups based on their endings. Adverbs of place that end in “-where” express the idea of location without specifying a specific location or direction.",
+              "variants": ["somewhere", "beyond", "overseas", "indoors"],
+              "correct": "0"
+            },
+            {
+              "title": "Is this text written down ___?",
+              "rule": "We use “anywhere” in interrogative and negative sentences.",
+              "variants": ["nowhere", "everywhere", "somewhere", "anywhere"],
+              "correct": "3"
+            },
+            {
+              "title": "Be careful – the car is going ___!",
+              "rule": "Adverbs of place that end in “-ward(s)” express movement in a particular direction.",
+              "variants": ["widely", "nowhere", "backward", "abroad"],
               "correct": "2"
+            },
+            {
+              "title": "She looked ___ the fire.",
+              "rule": "“Towards” is a preposition, not an adverb, so it is always followed by a noun or a pronoun.",
+              "variants": ["upwards", "westwards", "backward", "towards"],
+              "correct": "3"
+            },
+            {
+              "title": "Water always flows ___.",
+              "rule": "Some adverbs of place express both movement and location at the same time.",
+              "variants": ["forth", "downhill", "nowhere", "outside"],
+              "correct": "1"
+            },
+            {
+              "title": "What are you doing ___ here?",
+              "rule": "We use many of the adverbs of place to indicate how we move. We usually put these adverbs after the verb.",
+              "variants": ["out", "into", "off", "over"],
+              "correct": "3"
+            },
+            {
+              "title": "He opened the window and looked ___.",
+              "rule": "We use some adverbs to indicate the direction of movement. Most often, we put such adverbs after verbs.",
+              "variants": ["out", "through", "everywhere", "by"],
+              "correct": "0"
+            },
+            {
+              "title": "David folded up the chair and took it ___.",
+              "rule": "“Indoors”, “outdoors”, “inside”, “outside” are adverbs allow us to describe the location of something in relation to a building. When we say something is “indoors”, we mean it is in the house.",
+              "variants": ["over", "sideways", "indoors", "towards"],
+              "correct": "2"
+            },
+            {
+              "title": "She told the children not to go ___ from home.",
+              "rule": "The adverb of place may pertain to distances. “Far” indicate that something is at a big distance from the place where the speaker is.",
+              "variants": ["here", "far", "inside", "around"],
+              "correct": "1"
+            },
+            {
+              "title": "The opening to the cave was only a narrow hole ___ two rocks.",
+              "rule": "The Adverb of place can describe the placement of one thing in connection to another. For instance: beneath, between, above, behind, through, around, and so on.",
+              "variants": ["upstairs", "indoors", "far away", "between"],
+              "correct": "3"
+            },
+            {
+              "title": "This pattern is difficult to ___ behind.",
+              "rule": "Sometimes the combination of verb + adverb creates what is called a “phrasal verb”. For example, put away, sit down or leave behind. Here, the adverb changes (or extends) the meaning of the verb.",
+              "variants": ["leave", "back", "over", "below"],
+              "correct": "0"
             }
           ]
         }
