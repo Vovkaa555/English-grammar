@@ -1,14 +1,19 @@
 {
   "expo": {
-    "name": "EnglishGrammar",
-    "slug": "EnglishGrammar",
+    "name": "English Grammar Tests",
+    "slug": "english-grammar-tests",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-app.png",
     "userInterfaceStyle": "light",
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "scss", "sass"]
+      "sourceExts": [
+        "js",
+        "jsx",
+        "scss",
+        "sass"
+      ]
     },
     "splash": {
       "image": "./assets/English.png",
@@ -22,16 +27,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petrushko.english-grammar-tests",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon-adaptive.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.volodymyr_petrushko.englishgrammartests",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/English.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be1c5785-52b6-4b85-ba89-d2515f21c1af"
+      }
     }
   }
 }
