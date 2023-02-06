@@ -25,8 +25,8 @@ function TestScreen({ route, navigation }) {
       setCorrect(correct + 1);
     }
     setSwitcher(true);
-    index == question.correct ? setShowAnswer('green') : setShowAnswer('red');
-    index != question.correct ? setCorrectAnswer('green') : setCorrectAnswer('');
+    index == question.correct ? setShowAnswer('#1a6b01') : setShowAnswer('#c11000');
+    index != question.correct ? setCorrectAnswer('#1a6b01') : setCorrectAnswer('');
   };
   const onPressTryAgain = () => {
     setStep(0);

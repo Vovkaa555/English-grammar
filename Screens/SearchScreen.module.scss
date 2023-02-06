@@ -1,0 +1,129 @@
+.search_screen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(28, 30, 28);
+}
+
+    .search_block {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 95%;
+        height: 90%;
+        border: 2px;
+        border-color:  rgb(158, 161, 145);
+        border-radius: 20px;
+        padding: 10px;
+        background: rgb(21, 37, 21);
+    }
+
+        .search { 
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            height: 85%;
+        }
+
+            .search_field{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 95%;
+                position: relative;
+            }
+
+            .search_input {
+                margin-top: 10px;
+                padding: 10px;
+                width: 100%;
+                border: 2px;
+                border-radius: 10px;
+                border-color: rgb(158, 161, 145);
+                color: wheat;
+                font-size: 20px;
+            }
+
+            
+                .clear_input_block{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 35px;
+                    height: 35px;
+                    position: absolute;
+                    right: 10px;
+                    top: 19px;
+                    border: 2px;
+                    border-radius: 20px;
+                    border-color: grey;
+                }
+
+                .clear_input_text {
+                    color:grey;
+                    font-size: 50px;
+                    font-weight: 100;
+                    line-height: 44px;
+                    transform: rotate(45deg);
+                }
+
+                .rules_list {
+                    width: 95%;
+                }
+
+                    .rules_block {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                    }
+
+                        .text_search {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            padding: 10px 15px;
+                            margin-top: 20px;
+                            color: wheat;
+                            font-size: 17px;
+                            font-style: italic;
+                            font-weight: 600;
+                            border: 2px;
+                            border-color: rgb(158, 161, 145);
+                            border-radius: 10px;      
+                        }
+
+                        .home_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 95%;
+                            margin: 10px;
+                            padding: 10px;
+                            border-radius: 10px;
+                            border: 2px;
+                            border-color:  rgb(158, 161, 145);
+                            border-radius: 10px;
+                            background-color: #1d3521;
+                        }
+                            .home_button_title{
+                                font-size: 20px;
+                                color: wheat;
+                            }
+                            .not_found_block {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 20%;
+                            }
+
+                                .not_found_text {
+                                    color: grey;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }

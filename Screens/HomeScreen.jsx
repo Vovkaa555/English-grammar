@@ -43,12 +43,18 @@ function HomeScreen({ navigation }) {
             extraData={selectedId}
           />
         </View>
-        <Animatable.Image
-          animation={'zoomIn'}
-          easing="ease-in-out"
-          source={homeImage}
-          style={Styles.background_image}
-        />
+        <Animatable.View
+          style={Styles.search_button_block}
+          animation={'pulse'}
+          duration={2000}
+          iterationCount="infinite">
+          <TouchableOpacity
+            style={Styles.search_button}
+            onPress={() => navigation.navigate('Search')}>
+            <Text style={Styles.search_button_title}>Search by rules:</Text>
+            <Image source={homeImage} style={Styles.background_image} />
+          </TouchableOpacity>
+        </Animatable.View>
       </Animatable.View>
     </SafeAreaView>
   );
